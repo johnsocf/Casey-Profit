@@ -43,6 +43,13 @@ body {
 	margin-top:-150px;
 }
 
+#elit #background {
+	height:960px;
+	width:1080px;
+	position:absolute;
+	background: url(images/mainimage2.jpg) no-repeat;
+}
+
 #page{
 	
 }
@@ -77,12 +84,13 @@ body {
 }
 
 ul.nav {
-	width:1080px;
+	max-width: 1080px;
+	width:100%;
 	height:30px;
 	list-style:none;
 	overflow:hidden;
-	margin-left:10px;
-	background-color:#000;
+	background-color:#fff;
+	color:#000;
 
 }
 ul.nav li{
@@ -94,13 +102,16 @@ ul.nav li a {
 	display: block;
 	margin: 0px 5px;
 	width:150px;
+	text-decoration: none;
+	color:#000;
+	font-weight: 300;
+	line-height: 1.3;
+	font-size: 140%;
 }
 
      ul.nav li a.elit {
 		 width: 150px; background-position: 0 0;
 		 height: 30px;
-		 background-image:url(images/HOME.jpg); 
-		 text-indent: -9999px;
 	 }
 
     ul.nav li a.elit:hover, ul.nav li a.elit:focus {
@@ -110,8 +121,6 @@ ul.nav li a {
 	 ul.nav li a.lorem {
 		 width: 150px; background-position: 0 0;
 		 height: 30px;
-		 background-image:url(images/MEDIA.jpg); 
-		 text-indent: -9999px;
 	 }
 
     ul.nav li a.lorem:hover, ul.nav li a.lorem:focus {
@@ -121,7 +130,6 @@ ul.nav li a {
 	 ul.nav li a.ipsum {
 		  width: 150px; background-position: 0 0;
 		 height: 30px;
-		 background-image:url(images/ABOUT.jpg); text-indent: -9999px;
 	 }
 
      ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
@@ -131,7 +139,6 @@ ul.nav li a {
 	  ul.nav li a.dolor {
 		 width: 150px; background-position: 0 0;
 		 height: 30px;
-		 background-image:url(images/TEAM.jpg); text-indent: -9999px;
 	 }
 
      ul.nav li a.dolor:hover, ul.nav li a.dolor:focus {
@@ -141,7 +148,6 @@ ul.nav li a {
 		  width: 190px; background-position: 0 0;
 		 height: 30px;
 		 margin-left:0px;
-		 background-image:url(images/SCHEDMENU.jpg); text-indent: -9999px;
 	 }
 
      ul.nav li a.sit:hover, ul.nav li a.sit:focus {
@@ -151,7 +157,6 @@ ul.nav li a {
 		  width: 150px; background-position: 0 0;
 		 height: 30px;
 		 margin-left:30px;
-		 background-image:url(images/CONTACT.jpg);  text-indent: -9999px;
 	 }
 
      ul.nav li a.amet:hover, ul.nav li a.amet:focus {
@@ -164,12 +169,10 @@ ul.nav li a {
 	#elit {
 		height:960px;
 		width:1080px;
-		background-image:url('');
+		background-color:#fff;
 		background-repeat: no-repeat;
 		background-position: 0 0px;
 		position:relative;
-		background-color:#00f8fc;
-		opacity:.8;
 	}
 
 	#lorem {
@@ -179,7 +182,6 @@ ul.nav li a {
 		background-repeat: no-repeat;
 		background-position: 0 0px;
 		position:relative;
-		opacity:.8;
 		
 	}
 	
@@ -195,7 +197,6 @@ ul.nav li a {
 		transition: all 10.0s linear;
 		transform-style: preserve-3d;
 		perspective:100;
-		opacity:.8;
 	}
 	#overlayipsum {
 		height:960px;
@@ -301,13 +302,13 @@ ul.nav li a {
 	margin-left:20px;
 	position:absolute;
 }
-#logoriseabove {
+#title {
 	height:70px;
 	width:1080px;
 	float:left;
 	margin-top:20px;
 	margin-left:30px;
-	background-color:#000;
+	background-color:#fff;
 }
 #schedbox {
 	height:600px;
@@ -486,31 +487,39 @@ ul.nav li a {
 	opacity:0;
 }
 #maingraphic{
-	height:2680px;
-	width:460px;
-	background-color:#000;
+	height:1287px;
+	width:867px;
+	left:0%;
+	top:-42%;
+	background-color:#fff;
+	opacity:.5;
 	-webkit-transform: rotate(75deg);
     -moz-transform: rotate(75deg);
     -o-transform: rotate(75deg);
     -ms-transform: rotate(75deg);
     transform: rotate(75deg);
-	margin-top:-570px;
-	margin-left:55px;
 	position:absolute;
 }
 #colorgraphic{
-	height:2680px;
-	width:460px;
-	background-color:#04f93d;
+	height:702px;
+	width:100px;
+	top:16.8%;
+	left:72.5%;
 	-webkit-transform: rotate(85deg);
     -moz-transform: rotate(85deg);
     -o-transform: rotate(85deg);
     -ms-transform: rotate(85deg);
     transform: rotate(85deg);
-	margin-top:-530px;
-	margin-left:55px;
 	position:absolute;
-}
+	background: url(images/squeege2.png) no-repeat;
+}/*
+#colorgraphic img{
+	-webkit-transform: rotate(319deg);
+    -moz-transform: rotate(54deg);
+    transform: rotate(54deg);
+    position: absolute;
+    top:4.5%;
+}*/
 #textgraphic{
 	height:100px;
 	width:660px;

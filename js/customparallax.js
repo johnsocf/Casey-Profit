@@ -97,59 +97,51 @@
 			scale = 1
 		}
 
+		if(y <=53) {
+			$colorgraphic.css('opacity','0');
+			$maingraphic.css('opacity','0');
+		}
+		else {
+			$colorgraphic.css('opacity','1');
+			$maingraphic.css('opacity','.4');
+		}
+
 		if(y>=0 && y<992) 	{
 	 		$elit.css('background-position', '30px ' + firstOffset + 'px' );
-	 		$smallbox.css('transform', 'scale('+ scale +','+ scale +')');
-	 		$smallbox2.css('transform', 'scale('+ scale*4 +','+ scale*4 +')');
-	 		$smallbox2.css('transform', 'translateX('+ y/2 + 'px)');
 	 	}
-	 	if(y>=200 && y<1892) 	{
-	 		$smallbox.css('transform', 'translateX('+ (y-597)*2 + 'px)');
-	 	}
-	 	if(y>=996 && y<1892) 	{
-	 		$smallbox4.css('transform', 'translateX('+ otherOffset + 'px)');
-	 		$smallbox4.css('transform', 'scale('+ nextscale +','+ nextscale +')');
-	 	}
-	 	if(y>=400 && y<1892) 	{
-	 		$smallbox2.css('transform', 'translateX('+ y/1000 + firstOffset + 'px' + 'px)');
-	 		$smallbox3.css('transform', 'translateX('+ (y-797)*2 + 'px)');
-	 	}
-	 	if(y>=0 && y<215) 	{
-	 		$maingraphic.css('transform', 'rotate('+ (y * -.34 + 75)  + 'deg)');
-	 	}
-	 		
+	 	if(y>=53 && y<102) 	{
+	 		$maingraphic.css('transform', 'rotate('+ (y * -.39 + 75)  + 'deg)');
+	 	}	
 	 	else {
 		 	$maingraphic.css('transform', 'rotate(0)');
 	 	}
-	 	if(y>=0 && y<215) 	{
+	 	if(y>=53 && y<102) 	{
 	 		$colorgraphic.css('transform', 'rotate('+ (y * -.39 + 75)  + 'deg)');
+	 		$colorgraphic.css('background-position', '30px ' + second + 'px' );
 	 	}
-	 		
 	 	else {
 		 	$colorgraphic.css('transform', 'rotate(0)');
 	 	}
-	 	if(y>=0 && y<415) 	{
-	 		$textgraphic.css('transform', 'translateY(500)');
+	 	 if(y>104 && y<750) 	{
+	 		// $colorgraphic.css('transform', 'translateX('+ (-y/3) + 'px)');	
+	 		// $maingraphic.css('transform', 'translateX('+ (-y) + 'px)');	 		
 	 	}
-	 	if(y>=0 && y<415) 	{
-	 		$textgraphic.css('transform', 'translateX('+ y + 'px)');
+	 	if(y<=108) 	{
+	 		$maingraphic.css('left','0%');
 	 	}
-
-	 	 if(y>341 && y<750) 	{
-	 		$colorgraphic.css('transform', 'translateX('+ y + 'px)');	
-	 		$maingraphic.css('transform', 'translateX('+ y + 'px)');	 		
+	 	else {
+	 		$maingraphic.css('left','-6%');
 	 	}
-
-	 	if(y>450 && y<992) 	{
-	 		$maingraphic.css('background-position', '0px ' + -y + 'px' );
-	 		
+	 	if(y>109) 	{
+	 		$maingraphic.css('transform', 'translateX('+ (-y) + 'px)');
+	 		$colorgraphic.css('transform', 'translateX('+ (-y) + 'px)');
 	 	}
 	 	
 	 	if(y>720 && y<1127) 	{
 		 	$lorem.css('background-position', '0px ' + secondOffset + 'px' );
 		 	//$maingraphic.css('transform', 'translateX('+ y + 'px)');
 		 	//$maingraphic.css('background-position', '200px ' + secondOffset + 'px' );
-		 	$graphic2.css('transform', 'translateX('+ y + 'px)');
+		 	$graphic2.css('transform', 'translateY('+ y + 'px)');
 		 	$graphic2.css('background-position', '200px ' + secondOffset + 'px' );
 		 	$graphic2.css({opacity: (y-720)/(1127-720)});
 	 	}
@@ -160,20 +152,20 @@
 	 	}
 	 	if(y>=0 && y<235) 	{
 		 	
-		 	$maingraphic.css({ width : 560, height: 2680 });
-		 	$colorgraphic.css({ width : 460, height: 2680 });
+		 	// $maingraphic.css({ width : 220, height: 2000 });
+		 	// $colorgraphic.css({ width : 460, height: 2680 });
 
 
 	 	}
 	 	if(y>559 && y<960) 	{
 		 	
-		 	$maingraphic.css({ width : 1100, height: 900 });
-		 	$colorgraphic.css({ width : 1100, height: 900 });
+		 	// $maingraphic.css({ width : 1100, height: 900 });
+		 	// $colorgraphic.css({ width : 1100, height: 900 });
 	 	}
 	 	if(y>250 && y<960) 	{
-		 	$graphic2.css({opacity: (y-250)/(960-250)});
-		 	$graphic2.css('transform', 'translateX('+ y + 'px)');
-		 	$maingraphic.css('transform', 'translateX('- y + 'px)');
+		 	// $graphic2.css({opacity: (y-250)/(960-250)});
+		 	// $graphic2.css('transform', 'translateX('+ y + 'px)');
+		 	// $maingraphic.css('transform', 'translateX('- y + 'px)');
 		 	$maingraphic.css('background-position', '-200px ' + -secondOffset + 'px' );
 	 	}
 	 	if(y<1061) 	{
