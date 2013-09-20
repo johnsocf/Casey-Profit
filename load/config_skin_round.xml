@@ -1,0 +1,314 @@
+<?xml version='1.0' encoding='UTF-8'?>
+ 
+<settings>
+  	
+	<!-- General settings -->
+	<show_context_menu>yes</show_context_menu>
+	<hide_buttons_delay>2</hide_buttons_delay>
+	<thumbs_width>200</thumbs_width>
+	<horizontal_space_btween_buttons>0</horizontal_space_btween_buttons>
+	<buttons_margins>0</buttons_margins>
+	
+	<!-- Photo number and buttons background setup -->
+	<show_photo_current_number>yes</show_photo_current_number>
+	<photo_info_style>modern</photo_info_style>
+	<photo_info_label_css_class>photoLabel</photo_info_label_css_class>
+	<photo_info_numbers_css_class>photoNumberRound</photo_info_numbers_css_class>
+	<buttons_and_photo_info_background_color>#000000</buttons_and_photo_info_background_color>
+	<photo_info_background_opacity>.8</photo_info_background_opacity>
+	<buttons_background_opacity>0</buttons_background_opacity>
+	<buttons_background_corners_radius>4</buttons_background_corners_radius>
+	
+	<!-- Lightbox close button -->
+	<lightbox_button_icon_normal_state>load/skin_round/galleryCloseButtonNormalState.png</lightbox_button_icon_normal_state>  
+	<lightbox_button_icon_selected_state>load/skin_round/galleryCloseButtonSelectedState.png</lightbox_button_icon_selected_state> 
+    
+	<!-- Fullscreen button settings -->
+	<show_full_screen_button>yes</show_full_screen_button>
+	<fullscreen_button_margins>2</fullscreen_button_margins>
+	<fullscreen_button_icon_normal_normal_state>load/skin_round/fullScreenButtonIconNormalNormalState.png</fullscreen_button_icon_normal_normal_state>
+	<fullscreen_button_icon_normal_selected_state>load/skin_round/fullScreenButtonIconNormalSelectedState.png</fullscreen_button_icon_normal_selected_state>
+	<fullscreen_button_icon_full_normal_state>load/skin_round/fullScreenButtonIconFullNormalState.png</fullscreen_button_icon_full_normal_state>
+	<fullscreen_button_icon_full_selected_state>load/skin_round/fullScreenButtonIconFullSelectedState.png</fullscreen_button_icon_full_selected_state>
+
+	<!-- Info button settings -->
+	<show_info_button>yes</show_info_button>
+	<info_button_icon_normal_state>load/skin_round/infoButtonNormalState.png</info_button_icon_normal_state>  
+	<info_button_icon_selected_state>load/skin_round/infoButtonSelectedState.png</info_button_icon_selected_state> 
+	
+	<!-- Help screens settings -->
+	<show_help_screen>yes</show_help_screen>
+	<help_screen_close_button_normal_state>load/skin_round/helpScreenCloseButtonNormalState.png</help_screen_close_button_normal_state>
+	<help_screen_close_button_selected_state>load/skin_round/helpScreenCloseButtonSelectedState.png</help_screen_close_button_selected_state>
+	<help_screen_for_image_pc>load/skin_round/imagePcHelpScreen.png</help_screen_for_image_pc>
+	<help_screen_for_image_mobile>load/skin_round/imageMobileHelpScreen.png</help_screen_for_image_mobile>
+	
+	<!-- Image description window -->
+	<description_close_button_icon_normal_state>load/skin_round/infoCloseButtonNormalState.png</description_close_button_icon_normal_state>
+	<description_close_button_icon_selected_state>load/skin_round/infoCloseButtonSelectedState.png</description_close_button_icon_selected_state>
+	<description_window_background_color>#000000</description_window_background_color>
+	<description_window_corners_radius>6</description_window_corners_radius>
+	<description_window_background_opacity>.8</description_window_background_opacity>
+	<description_window_close_button_margins>7</description_window_close_button_margins>
+	
+	<!-- Slideshow button -->
+	<show_slideshow_button>yes</show_slideshow_button>
+	<slideshow_auto_play>no</slideshow_auto_play>
+	<slideshow_delay>5</slideshow_delay>
+	<gallery_play_button_icon_normal_state>load/skin_round/playButtonNormalState.png</gallery_play_button_icon_normal_state>  
+	<gallery_play_button_icon_selected_state>load/skin_round/playButtonSelectedState.png</gallery_play_button_icon_selected_state> 
+	<gallery_pause_button_icon_normal_state>load/skin_round/pauseButtonNormalState.png</gallery_pause_button_icon_normal_state>  
+	<gallery_pause_button_icon_selected_state>load/skin_round/pauseButtonSelectedState.png</gallery_pause_button_icon_selected_state> 
+	<slide_show_preloader_radius>11</slide_show_preloader_radius>
+	<slide_show_preloader_thinckness>3</slide_show_preloader_thinckness>
+	<slide_show_preloaders_background_color>#FFFFFF</slide_show_preloaders_background_color>
+	<slide_show_preloaders_fill_color>#0099ff</slide_show_preloaders_fill_color>
+	
+	<!-- Thumbs up and down  buttons-->
+	<show_thumbs_up_and_down_buttons>yes</show_thumbs_up_and_down_buttons>
+	<up_button_icon_normal_state>load/skin_round/upNormalState.png</up_button_icon_normal_state>
+	<up_button_icon_selected_state>load/skin_round/upSelectedState.png</up_button_icon_selected_state>
+	<down_button_icon_normal_state>load/skin_round/downNormalState.png</down_button_icon_normal_state>
+	<down_button_icon_selected_state>load/skin_round/downSelectedState.png</down_button_icon_selected_state>
+	
+	<!-- Images setting + adding or removing images -->
+	<close_button_icon_normal_state>load/skin_round/galleryCloseButtonNormalState.png</close_button_icon_normal_state>
+	<close_button_icon_selected_state>load/skin_round/galleryCloseButtonSelectedState.png</close_button_icon_selected_state>
+	<next_button_icon_normal_state>load/skin_round/nextIconNormalState.png</next_button_icon_normal_state>  
+	<next_button_icon_selected_state>load/skin_round/nextIconSelectedState.png</next_button_icon_selected_state>  
+	<prev_button_icon_normal_state>load/skin_round/prevIconNormalState.png</prev_button_icon_normal_state>  
+	<prev_button_icon_selected_state>load/skin_round/prevIconSelectedState.png</prev_button_icon_selected_state>  
+	<close_button_left_margin>3</close_button_left_margin>
+
+	<show_thumb_zoom_icon>yes</show_thumb_zoom_icon>
+	<thumb_zoom_icon_path>load/skin_round/thumbZoomIcon.png</thumb_zoom_icon_path>
+	
+	<show_thumb_overlay>yes</show_thumb_overlay>
+	<inverse_thumb_overlay>yes</inverse_thumb_overlay>
+	<thumb_overlay_pattern_path>load/skin_round/dark_overlay.png</thumb_overlay_pattern_path>
+	
+	<thumb_border_size>6</thumb_border_size>
+	<horizontal_space_between_thumbs>10</horizontal_space_between_thumbs>
+	<vertical_space_between_thumbs>10</vertical_space_between_thumbs>
+	<thumb_border_normal_state_color>#FFFFFF</thumb_border_normal_state_color>
+	<thumb_border_selected_state_color>#0099ff</thumb_border_selected_state_color>
+	
+	<image>
+		<big_image_path>load/images/1.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/1.jpg</mobile_image_path>
+		<thumb_path>load/thumbs/1.jpg</thumb_path>
+		<text><![CDATA[<p class="roundSkinHeaderDesc">Photo description window</p><div class="simpleSkinImageMainText"><p class="simpleSkinTextWithBottomMargins">This window is representing <span class="roundSkinBold">the description for the selected image</span> it can be set individually for each image, <span class="roundSkinBold">it has full CSS support</span>, it can be styled with a CSS class or with inline CSS.Please note that this window is optional, it can be disabled if you choose so.This gallery was coded for mobile devices and it is <span class="roundSkinBold">100% mobile compatible</span> and of course it will run just as great on PC. We have tested it on IPAD3 and it runs great, you will interact with it as you would with a native app, you can see a video demo <a href="http://www.youtube.com/watch?v=6HWiysziQ00" target="_blank">at this link</a>.</p></div>]]></text>
+	</image>
+	
+	<image>
+		<big_image_path>load/images/2.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/2.jpg</mobile_image_path>
+		<thumb_path>load/thumbs/2.jpg</thumb_path>
+		<text><![CDATA[<p class="roundSkinHeaderDesc">Photo description window</p><div class="simpleSkinImageMainText"><p class="simpleSkinTextWithBottomMargins">This window is representing <span class="roundSkinBold">the description for the selected image</span> it can be set individually for each image, <span class="roundSkinBold">it has full CSS support</span>, it can be styled with a CSS class or with inline CSS.Please note that this window is optional, it can be disabled if you choose so.This gallery was coded for mobile devices and it is <span class="roundSkinBold">100% mobile compatible</span> and of course it will run just as great on PC. We have tested it on IPAD3 and it runs great, you will interact with it as you would with a native app, you can see a video demo <a href="http://www.youtube.com/watch?v=6HWiysziQ00" target="_blank">at this link</a>.</p></div>]]></text>
+	</image>
+	
+	<image>
+		<big_image_path>load/images/3.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/3.jpg</mobile_image_path>
+		<thumb_path>load/thumbs/3.jpg</thumb_path>
+		<text><![CDATA[<p class="roundSkinHeaderDesc">Photo description window</p><div class="simpleSkinImageMainText"><p class="simpleSkinTextWithBottomMargins">This window is representing <span class="roundSkinBold">the description for the selected image</span> it can be set individually for each image, <span class="roundSkinBold">it has full CSS support</span>, it can be styled with a CSS class or with inline CSS.Please note that this window is optional, it can be disabled if you choose so.This gallery was coded for mobile devices and it is <span class="roundSkinBold">100% mobile compatible</span> and of course it will run just as great on PC. We have tested it on IPAD3 and it runs great, you will interact with it as you would with a native app, you can see a video demo <a href="http://www.youtube.com/watch?v=6HWiysziQ00" target="_blank">at this link</a>.</p></div>]]></text>
+	</image>
+	
+	<image>
+		<big_image_path>load/images/4.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/4.jpg</mobile_image_path>
+		<thumb_path>load/thumbs/4.jpg</thumb_path>
+		<text><![CDATA[<p class="roundSkinHeaderDesc">Photo description window</p><div class="simpleSkinImageMainText"><p class="simpleSkinTextWithBottomMargins">This window is representing <span class="roundSkinBold">the description for the selected image</span> it can be set individually for each image, <span class="roundSkinBold">it has full CSS support</span>, it can be styled with a CSS class or with inline CSS.Please note that this window is optional, it can be disabled if you choose so.This gallery was coded for mobile devices and it is <span class="roundSkinBold">100% mobile compatible</span> and of course it will run just as great on PC. We have tested it on IPAD3 and it runs great, you will interact with it as you would with a native app, you can see a video demo <a href="http://www.youtube.com/watch?v=6HWiysziQ00" target="_blank">at this link</a>.</p></div>]]></text>
+	</image>
+	
+	<image>
+		<big_image_path>load/images/5.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/5.jpg</mobile_image_path>
+		<thumb_path>load/thumbs/5.jpg</thumb_path>
+		<text><![CDATA[<p class="roundSkinHeaderDesc">Photo description window</p><div class="simpleSkinImageMainText"><p class="simpleSkinTextWithBottomMargins">This window is representing <span class="roundSkinBold">the description for the selected image</span> it can be set individually for each image, <span class="roundSkinBold">it has full CSS support</span>, it can be styled with a CSS class or with inline CSS.Please note that this window is optional, it can be disabled if you choose so.This gallery was coded for mobile devices and it is <span class="roundSkinBold">100% mobile compatible</span> and of course it will run just as great on PC. We have tested it on IPAD3 and it runs great, you will interact with it as you would with a native app, you can see a video demo <a href="http://www.youtube.com/watch?v=6HWiysziQ00" target="_blank">at this link</a>.</p></div>]]></text>
+	</image>
+	
+	<image>
+		<big_image_path>load/images/6.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/6.jpg</mobile_image_path>
+		<thumb_path>load/thumbs/6.jpg</thumb_path>
+		<text><![CDATA[<p class="roundSkinHeaderDesc">Photo description window</p><div class="simpleSkinImageMainText"><p class="simpleSkinTextWithBottomMargins">This window is representing <span class="roundSkinBold">the description for the selected image</span> it can be set individually for each image, <span class="roundSkinBold">it has full CSS support</span>, it can be styled with a CSS class or with inline CSS.Please note that this window is optional, it can be disabled if you choose so.This gallery was coded for mobile devices and it is <span class="roundSkinBold">100% mobile compatible</span> and of course it will run just as great on PC. We have tested it on IPAD3 and it runs great, you will interact with it as you would with a native app, you can see a video demo <a href="http://www.youtube.com/watch?v=6HWiysziQ00" target="_blank">at this link</a>.</p></div>]]></text>
+	</image>
+	
+	<image>
+		<big_image_path>load/images/7.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/7.jpg</mobile_image_path>
+		<thumb_path>load/thumbs/7.jpg</thumb_path>
+		<text><![CDATA[<p class="roundSkinHeaderDesc">Photo description window</p><div class="simpleSkinImageMainText"><p class="simpleSkinTextWithBottomMargins">This window is representing <span class="roundSkinBold">the description for the selected image</span> it can be set individually for each image, <span class="roundSkinBold">it has full CSS support</span>, it can be styled with a CSS class or with inline CSS.Please note that this window is optional, it can be disabled if you choose so.This gallery was coded for mobile devices and it is <span class="roundSkinBold">100% mobile compatible</span> and of course it will run just as great on PC. We have tested it on IPAD3 and it runs great, you will interact with it as you would with a native app, you can see a video demo <a href="http://www.youtube.com/watch?v=6HWiysziQ00" target="_blank">at this link</a>.</p></div>]]></text>
+	</image>
+	
+	<image>
+		<big_image_path>load/images/8.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/8.jpg</mobile_image_path>
+		<thumb_path>load/thumbs/8.jpg</thumb_path>
+		<text><![CDATA[<p class="roundSkinHeaderDesc">Photo description window</p><div class="simpleSkinImageMainText"><p class="simpleSkinTextWithBottomMargins">This window is representing <span class="roundSkinBold">the description for the selected image</span> it can be set individually for each image, <span class="roundSkinBold">it has full CSS support</span>, it can be styled with a CSS class or with inline CSS.Please note that this window is optional, it can be disabled if you choose so.This gallery was coded for mobile devices and it is <span class="roundSkinBold">100% mobile compatible</span> and of course it will run just as great on PC. We have tested it on IPAD3 and it runs great, you will interact with it as you would with a native app, you can see a video demo <a href="http://www.youtube.com/watch?v=6HWiysziQ00" target="_blank">at this link</a>.</p></div>]]></text>
+	</image>
+	
+	<image>
+		<big_image_path>load/images/9.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/9.jpg</mobile_image_path>
+		<thumb_path>load/thumbs/9.jpg</thumb_path>
+		<text><![CDATA[<p class="roundSkinHeaderDesc">Photo description window</p><div class="simpleSkinImageMainText"><p class="simpleSkinTextWithBottomMargins">This window is representing <span class="roundSkinBold">the description for the selected image</span> it can be set individually for each image, <span class="roundSkinBold">it has full CSS support</span>, it can be styled with a CSS class or with inline CSS.Please note that this window is optional, it can be disabled if you choose so.This gallery was coded for mobile devices and it is <span class="roundSkinBold">100% mobile compatible</span> and of course it will run just as great on PC. We have tested it on IPAD3 and it runs great, you will interact with it as you would with a native app, you can see a video demo <a href="http://www.youtube.com/watch?v=6HWiysziQ00" target="_blank">at this link</a>.</p></div>]]></text>
+	</image>
+	
+	<image>
+		<big_image_path>load/images/10.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/10.jpg</mobile_image_path>
+		<thumb_path>load/thumbs/10.jpg</thumb_path>
+		<text><![CDATA[<p class="roundSkinHeaderDesc">Photo description window</p><div class="simpleSkinImageMainText"><p class="simpleSkinTextWithBottomMargins">This window is representing <span class="roundSkinBold">the description for the selected image</span> it can be set individually for each image, <span class="roundSkinBold">it has full CSS support</span>, it can be styled with a CSS class or with inline CSS.Please note that this window is optional, it can be disabled if you choose so.This gallery was coded for mobile devices and it is <span class="roundSkinBold">100% mobile compatible</span> and of course it will run just as great on PC. We have tested it on IPAD3 and it runs great, you will interact with it as you would with a native app, you can see a video demo <a href="http://www.youtube.com/watch?v=6HWiysziQ00" target="_blank">at this link</a>.</p></div>]]></text>
+	</image>
+	
+	<image>
+		<big_image_path>load/images/11.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/11.jpg</mobile_image_path>
+		<thumb_path>load/thumbs/11.jpg</thumb_path>
+		<text><![CDATA[<p class="roundSkinHeaderDesc">Photo description window</p><div class="simpleSkinImageMainText"><p class="simpleSkinTextWithBottomMargins">This window is representing <span class="roundSkinBold">the description for the selected image</span> it can be set individually for each image, <span class="roundSkinBold">it has full CSS support</span>, it can be styled with a CSS class or with inline CSS.Please note that this window is optional, it can be disabled if you choose so.This gallery was coded for mobile devices and it is <span class="roundSkinBold">100% mobile compatible</span> and of course it will run just as great on PC. We have tested it on IPAD3 and it runs great, you will interact with it as you would with a native app, you can see a video demo <a href="http://www.youtube.com/watch?v=6HWiysziQ00" target="_blank">at this link</a>.</p></div>]]></text>
+	</image>
+	
+	<image>
+		<big_image_path>load/images/12.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/12.jpg</mobile_image_path>
+		<thumb_path>load/thumbs/12.jpg</thumb_path>
+		<text><![CDATA[<p class="roundSkinHeaderDesc">Photo description window</p><div class="simpleSkinImageMainText"><p class="simpleSkinTextWithBottomMargins">This window is representing <span class="roundSkinBold">the description for the selected image</span> it can be set individually for each image, <span class="roundSkinBold">it has full CSS support</span>, it can be styled with a CSS class or with inline CSS.Please note that this window is optional, it can be disabled if you choose so.This gallery was coded for mobile devices and it is <span class="roundSkinBold">100% mobile compatible</span> and of course it will run just as great on PC. We have tested it on IPAD3 and it runs great, you will interact with it as you would with a native app, you can see a video demo <a href="http://www.youtube.com/watch?v=6HWiysziQ00" target="_blank">at this link</a>.</p></div>]]></text>
+	</image>
+	
+	<image>
+		<big_image_path>load/images/13.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/13.jpg</mobile_image_path>
+		<thumb_path>load/thumbs/13.jpg</thumb_path>
+		<text><![CDATA[<p class="roundSkinHeaderDesc">Photo description window</p><div class="simpleSkinImageMainText"><p class="simpleSkinTextWithBottomMargins">This window is representing <span class="roundSkinBold">the description for the selected image</span> it can be set individually for each image, <span class="roundSkinBold">it has full CSS support</span>, it can be styled with a CSS class or with inline CSS.Please note that this window is optional, it can be disabled if you choose so.This gallery was coded for mobile devices and it is <span class="roundSkinBold">100% mobile compatible</span> and of course it will run just as great on PC. We have tested it on IPAD3 and it runs great, you will interact with it as you would with a native app, you can see a video demo <a href="http://www.youtube.com/watch?v=6HWiysziQ00" target="_blank">at this link</a>.</p></div>]]></text>
+	</image>
+	
+	<image>
+		<big_image_path>load/images/14.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/14.jpg</mobile_image_path>
+		<thumb_path>load/thumbs/14.jpg</thumb_path>
+		<text><![CDATA[<p class="roundSkinHeaderDesc">Photo description window</p><div class="simpleSkinImageMainText"><p class="simpleSkinTextWithBottomMargins">This window is representing <span class="roundSkinBold">the description for the selected image</span> it can be set individually for each image, <span class="roundSkinBold">it has full CSS support</span>, it can be styled with a CSS class or with inline CSS.Please note that this window is optional, it can be disabled if you choose so.This gallery was coded for mobile devices and it is <span class="roundSkinBold">100% mobile compatible</span> and of course it will run just as great on PC. We have tested it on IPAD3 and it runs great, you will interact with it as you would with a native app, you can see a video demo <a href="http://www.youtube.com/watch?v=6HWiysziQ00" target="_blank">at this link</a>.</p></div>]]></text>
+	</image>
+	
+	<image>
+		<big_image_path>load/images/15.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/15.jpg</mobile_image_path>
+		<thumb_path>load/thumbs/15.jpg</thumb_path>
+		<text><![CDATA[<p class="roundSkinHeaderDesc">Photo description window</p><div class="simpleSkinImageMainText"><p class="simpleSkinTextWithBottomMargins">This window is representing <span class="roundSkinBold">the description for the selected image</span> it can be set individually for each image, <span class="roundSkinBold">it has full CSS support</span>, it can be styled with a CSS class or with inline CSS.Please note that this window is optional, it can be disabled if you choose so.This gallery was coded for mobile devices and it is <span class="roundSkinBold">100% mobile compatible</span> and of course it will run just as great on PC. We have tested it on IPAD3 and it runs great, you will interact with it as you would with a native app, you can see a video demo <a href="http://www.youtube.com/watch?v=6HWiysziQ00" target="_blank">at this link</a>.</p></div>]]></text>
+	</image>
+	
+	<image>
+		<big_image_path>load/images/16.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/16.jpg</mobile_image_path>
+		<thumb_path>load/thumbs/16.jpg</thumb_path>
+		<text><![CDATA[<p class="roundSkinHeaderDesc">Photo description window</p><div class="simpleSkinImageMainText"><p class="simpleSkinTextWithBottomMargins">This window is representing <span class="roundSkinBold">the description for the selected image</span> it can be set individually for each image, <span class="roundSkinBold">it has full CSS support</span>, it can be styled with a CSS class or with inline CSS.Please note that this window is optional, it can be disabled if you choose so.This gallery was coded for mobile devices and it is <span class="roundSkinBold">100% mobile compatible</span> and of course it will run just as great on PC. We have tested it on IPAD3 and it runs great, you will interact with it as you would with a native app, you can see a video demo <a href="http://www.youtube.com/watch?v=6HWiysziQ00" target="_blank">at this link</a>.</p></div>]]></text>
+	</image>
+	
+	<image>
+		<big_image_path>load/images/17.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/17.jpg</mobile_image_path>
+		<thumb_path>load/thumbs/17.jpg</thumb_path>
+		<text><![CDATA[<p class="roundSkinHeaderDesc">Photo description window</p><div class="simpleSkinImageMainText"><p class="simpleSkinTextWithBottomMargins">This window is representing <span class="roundSkinBold">the description for the selected image</span> it can be set individually for each image, <span class="roundSkinBold">it has full CSS support</span>, it can be styled with a CSS class or with inline CSS.Please note that this window is optional, it can be disabled if you choose so.This gallery was coded for mobile devices and it is <span class="roundSkinBold">100% mobile compatible</span> and of course it will run just as great on PC. We have tested it on IPAD3 and it runs great, you will interact with it as you would with a native app, you can see a video demo <a href="http://www.youtube.com/watch?v=6HWiysziQ00" target="_blank">at this link</a>.</p></div>]]></text>
+	</image>
+	
+	<image>
+		<big_image_path>load/images/18.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/18.jpg</mobile_image_path>
+		<thumb_path>load/thumbs/18.jpg</thumb_path>
+		<text><![CDATA[<p class="roundSkinHeaderDesc">Photo description window</p><div class="simpleSkinImageMainText"><p class="simpleSkinTextWithBottomMargins">This window is representing <span class="roundSkinBold">the description for the selected image</span> it can be set individually for each image, <span class="roundSkinBold">it has full CSS support</span>, it can be styled with a CSS class or with inline CSS.Please note that this window is optional, it can be disabled if you choose so.This gallery was coded for mobile devices and it is <span class="roundSkinBold">100% mobile compatible</span> and of course it will run just as great on PC. We have tested it on IPAD3 and it runs great, you will interact with it as you would with a native app, you can see a video demo <a href="http://www.youtube.com/watch?v=6HWiysziQ00" target="_blank">at this link</a>.</p></div>]]></text>
+	</image>
+	
+	<image>
+		<big_image_path>load/images/19.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/19.jpg</mobile_image_path>
+		<thumb_path>load/thumbs/19.jpg</thumb_path>
+		<text><![CDATA[<p class="roundSkinHeaderDesc">Photo description window</p><div class="simpleSkinImageMainText"><p class="simpleSkinTextWithBottomMargins">This window is representing <span class="roundSkinBold">the description for the selected image</span> it can be set individually for each image, <span class="roundSkinBold">it has full CSS support</span>, it can be styled with a CSS class or with inline CSS.Please note that this window is optional, it can be disabled if you choose so.This gallery was coded for mobile devices and it is <span class="roundSkinBold">100% mobile compatible</span> and of course it will run just as great on PC. We have tested it on IPAD3 and it runs great, you will interact with it as you would with a native app, you can see a video demo <a href="http://www.youtube.com/watch?v=6HWiysziQ00" target="_blank">at this link</a>.</p></div>]]></text>
+	</image>
+	
+	<image>
+		<big_image_path>load/images/20.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/20.jpg</mobile_image_path>
+		<thumb_path>load/thumbs/20.jpg</thumb_path>
+		<text><![CDATA[<p class="roundSkinHeaderDesc">Photo description window</p><div class="simpleSkinImageMainText"><p class="simpleSkinTextWithBottomMargins">This window is representing <span class="roundSkinBold">the description for the selected image</span> it can be set individually for each image, <span class="roundSkinBold">it has full CSS support</span>, it can be styled with a CSS class or with inline CSS.Please note that this window is optional, it can be disabled if you choose so.This gallery was coded for mobile devices and it is <span class="roundSkinBold">100% mobile compatible</span> and of course it will run just as great on PC. We have tested it on IPAD3 and it runs great, you will interact with it as you would with a native app, you can see a video demo <a href="http://www.youtube.com/watch?v=6HWiysziQ00" target="_blank">at this link</a>.</p></div>]]></text>
+	</image>
+	
+	<image>
+		<big_image_path>load/images/21.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/21.jpg</mobile_image_path>
+		<thumb_path>load/thumbs/21.jpg</thumb_path>
+		<text><![CDATA[<p class="roundSkinHeaderDesc">Photo description window</p><div class="simpleSkinImageMainText"><p class="simpleSkinTextWithBottomMargins">This window is representing <span class="roundSkinBold">the description for the selected image</span> it can be set individually for each image, <span class="roundSkinBold">it has full CSS support</span>, it can be styled with a CSS class or with inline CSS.Please note that this window is optional, it can be disabled if you choose so.This gallery was coded for mobile devices and it is <span class="roundSkinBold">100% mobile compatible</span> and of course it will run just as great on PC. We have tested it on IPAD3 and it runs great, you will interact with it as you would with a native app, you can see a video demo <a href="http://www.youtube.com/watch?v=6HWiysziQ00" target="_blank">at this link</a>.</p></div>]]></text>
+	</image>
+	
+	<image>
+		<big_image_path>load/images/22.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/22.jpg</mobile_image_path>
+		<thumb_path>load/thumbs/22.jpg</thumb_path>
+		<text><![CDATA[<p class="roundSkinHeaderDesc">Photo description window</p><div class="simpleSkinImageMainText"><p class="simpleSkinTextWithBottomMargins">This window is representing <span class="roundSkinBold">the description for the selected image</span> it can be set individually for each image, <span class="roundSkinBold">it has full CSS support</span>, it can be styled with a CSS class or with inline CSS.Please note that this window is optional, it can be disabled if you choose so.This gallery was coded for mobile devices and it is <span class="roundSkinBold">100% mobile compatible</span> and of course it will run just as great on PC. We have tested it on IPAD3 and it runs great, you will interact with it as you would with a native app, you can see a video demo <a href="http://www.youtube.com/watch?v=6HWiysziQ00" target="_blank">at this link</a>.</p></div>]]></text>
+	</image>
+	
+	<image>
+		<big_image_path>load/images/23.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/23.jpg</mobile_image_path>
+		<thumb_path>load/thumbs/23.jpg</thumb_path>
+		<text><![CDATA[<p class="roundSkinHeaderDesc">Photo description window</p><div class="simpleSkinImageMainText"><p class="simpleSkinTextWithBottomMargins">This window is representing <span class="roundSkinBold">the description for the selected image</span> it can be set individually for each image, <span class="roundSkinBold">it has full CSS support</span>, it can be styled with a CSS class or with inline CSS.Please note that this window is optional, it can be disabled if you choose so.This gallery was coded for mobile devices and it is <span class="roundSkinBold">100% mobile compatible</span> and of course it will run just as great on PC. We have tested it on IPAD3 and it runs great, you will interact with it as you would with a native app, you can see a video demo <a href="http://www.youtube.com/watch?v=6HWiysziQ00" target="_blank">at this link</a>.</p></div>]]></text>
+	</image>
+	
+	<image>
+		<big_image_path>load/images/24.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/24.jpg</mobile_image_path>
+		<thumb_path>load/thumbs/24.jpg</thumb_path>
+		<text><![CDATA[<p class="roundSkinHeaderDesc">Photo description window</p><div class="simpleSkinImageMainText"><p class="simpleSkinTextWithBottomMargins">This window is representing <span class="roundSkinBold">the description for the selected image</span> it can be set individually for each image, <span class="roundSkinBold">it has full CSS support</span>, it can be styled with a CSS class or with inline CSS.Please note that this window is optional, it can be disabled if you choose so.This gallery was coded for mobile devices and it is <span class="roundSkinBold">100% mobile compatible</span> and of course it will run just as great on PC. We have tested it on IPAD3 and it runs great, you will interact with it as you would with a native app, you can see a video demo <a href="http://www.youtube.com/watch?v=6HWiysziQ00" target="_blank">at this link</a>.</p></div>]]></text>
+	</image>
+	
+	<image>
+		<big_image_path>load/images/25.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/25.jpg</mobile_image_path>
+		<thumb_path>load/thumbs/25.jpg</thumb_path>
+		<text><![CDATA[<p class="roundSkinHeaderDesc">Photo description window</p><div class="simpleSkinImageMainText"><p class="simpleSkinTextWithBottomMargins">This window is representing <span class="roundSkinBold">the description for the selected image</span> it can be set individually for each image, <span class="roundSkinBold">it has full CSS support</span>, it can be styled with a CSS class or with inline CSS.Please note that this window is optional, it can be disabled if you choose so.This gallery was coded for mobile devices and it is <span class="roundSkinBold">100% mobile compatible</span> and of course it will run just as great on PC. We have tested it on IPAD3 and it runs great, you will interact with it as you would with a native app, you can see a video demo <a href="http://www.youtube.com/watch?v=6HWiysziQ00" target="_blank">at this link</a>.</p></div>]]></text>
+	</image>
+	
+	<image>
+		<big_image_path>load/images/26.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/26.jpg</mobile_image_path>
+		<thumb_path>load/thumbs/26.jpg</thumb_path>
+		<text><![CDATA[<p class="roundSkinHeaderDesc">Photo description window</p><div class="simpleSkinImageMainText"><p class="simpleSkinTextWithBottomMargins">This window is representing <span class="roundSkinBold">the description for the selected image</span> it can be set individually for each image, <span class="roundSkinBold">it has full CSS support</span>, it can be styled with a CSS class or with inline CSS.Please note that this window is optional, it can be disabled if you choose so.This gallery was coded for mobile devices and it is <span class="roundSkinBold">100% mobile compatible</span> and of course it will run just as great on PC. We have tested it on IPAD3 and it runs great, you will interact with it as you would with a native app, you can see a video demo <a href="http://www.youtube.com/watch?v=6HWiysziQ00" target="_blank">at this link</a>.</p></div>]]></text>
+	</image>
+	
+	<image>
+		<big_image_path>load/images/27.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/27.jpg</mobile_image_path>
+		<thumb_path>load/thumbs/27.jpg</thumb_path>
+		<text><![CDATA[<p class="roundSkinHeaderDesc">Photo description window</p><div class="simpleSkinImageMainText"><p class="simpleSkinTextWithBottomMargins">This window is representing <span class="roundSkinBold">the description for the selected image</span> it can be set individually for each image, <span class="roundSkinBold">it has full CSS support</span>, it can be styled with a CSS class or with inline CSS.Please note that this window is optional, it can be disabled if you choose so.This gallery was coded for mobile devices and it is <span class="roundSkinBold">100% mobile compatible</span> and of course it will run just as great on PC. We have tested it on IPAD3 and it runs great, you will interact with it as you would with a native app, you can see a video demo <a href="http://www.youtube.com/watch?v=6HWiysziQ00" target="_blank">at this link</a>.</p></div>]]></text>
+	</image>
+	
+	<image>
+		<big_image_path>load/images/28.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/28.jpg</mobile_image_path>
+		<thumb_path>load/thumbs/28.jpg</thumb_path>
+		<text><![CDATA[<p class="roundSkinHeaderDesc">Photo description window</p><div class="simpleSkinImageMainText"><p class="simpleSkinTextWithBottomMargins">This window is representing <span class="roundSkinBold">the description for the selected image</span> it can be set individually for each image, <span class="roundSkinBold">it has full CSS support</span>, it can be styled with a CSS class or with inline CSS.Please note that this window is optional, it can be disabled if you choose so.This gallery was coded for mobile devices and it is <span class="roundSkinBold">100% mobile compatible</span> and of course it will run just as great on PC. We have tested it on IPAD3 and it runs great, you will interact with it as you would with a native app, you can see a video demo <a href="http://www.youtube.com/watch?v=6HWiysziQ00" target="_blank">at this link</a>.</p></div>]]></text>
+	</image>
+	
+	<image>
+		<big_image_path>load/images/29.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/29.jpg</mobile_image_path>
+		<thumb_path>load/thumbs/29.jpg</thumb_path>
+		<text><![CDATA[<p class="roundSkinHeaderDesc">Photo description window</p><div class="simpleSkinImageMainText"><p class="simpleSkinTextWithBottomMargins">This window is representing <span class="roundSkinBold">the description for the selected image</span> it can be set individually for each image, <span class="roundSkinBold">it has full CSS support</span>, it can be styled with a CSS class or with inline CSS.Please note that this window is optional, it can be disabled if you choose so.This gallery was coded for mobile devices and it is <span class="roundSkinBold">100% mobile compatible</span> and of course it will run just as great on PC. We have tested it on IPAD3 and it runs great, you will interact with it as you would with a native app, you can see a video demo <a href="http://www.youtube.com/watch?v=6HWiysziQ00" target="_blank">at this link</a>.</p></div>]]></text>
+	</image>
+	
+	<image>
+		<big_image_path>load/images/30.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/30.jpg</mobile_image_path>
+		<thumb_path>load/thumbs/30.jpg</thumb_path>
+		<text><![CDATA[<p class="roundSkinHeaderDesc">Photo description window</p><div class="simpleSkinImageMainText"><p class="simpleSkinTextWithBottomMargins">This window is representing <span class="roundSkinBold">the description for the selected image</span> it can be set individually for each image, <span class="roundSkinBold">it has full CSS support</span>, it can be styled with a CSS class or with inline CSS.Please note that this window is optional, it can be disabled if you choose so.This gallery was coded for mobile devices and it is <span class="roundSkinBold">100% mobile compatible</span> and of course it will run just as great on PC. We have tested it on IPAD3 and it runs great, you will interact with it as you would with a native app, you can see a video demo <a href="http://www.youtube.com/watch?v=6HWiysziQ00" target="_blank">at this link</a>.</p></div>]]></text>
+	</image>
+	
+	<image>
+		<big_image_path>load/images/31.jpg</big_image_path>
+		<mobile_image_path>load/images_mobile/31.jpg</mobile_image_path>
+		<thumb_path>load/thumbs/31.jpg</thumb_path>
+		<text><![CDATA[<p class="roundSkinHeaderDesc">Photo description window</p><div class="simpleSkinImageMainText"><p class="simpleSkinTextWithBottomMargins">This window is representing <span class="roundSkinBold">the description for the selected image</span> it can be set individually for each image, <span class="roundSkinBold">it has full CSS support</span>, it can be styled with a CSS class or with inline CSS.Please note that this window is optional, it can be disabled if you choose so.This gallery was coded for mobile devices and it is <span class="roundSkinBold">100% mobile compatible</span> and of course it will run just as great on PC. We have tested it on IPAD3 and it runs great, you will interact with it as you would with a native app, you can see a video demo <a href="http://www.youtube.com/watch?v=6HWiysziQ00" target="_blank">at this link</a>.</p></div>]]></text>
+	</image>
+	
+</settings>
+
