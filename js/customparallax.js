@@ -64,10 +64,7 @@
   		var $npbimg6 = $('#npbimg6');
   		var $npbimg7 = $('#npbimg7');
   		var $npbimg8 = $('#npbimg8');
-  		var $smallbox = $('#smallbox');
-  		var $smallbox2 = $('#smallbox2');
-  		var $smallbox3 = $('#smallbox3');
-  		var $smallbox4 = $('#smallbox4');
+  		var $midbase = $('#midbase');
 
 
 
@@ -75,7 +72,7 @@
   $(window).on('scroll', function() {	  
 	 	var y = $(window).scrollTop(); 
 	 	var yOffset = y/2;
-	 	var secondOffset = y/3 -(1/3)*$lorem.offset().top;
+	 	var secondOffset = y/6 -(1/6)*$midbase.offset().top;
 	 	var firstOffset = y/3 -(1/3)*$elit.offset().top;
 	 	var otherOffset = y/5 -(1/5)*$ipsum.offset().top;
 	 	var nextOffset = y/6 -(1/6)*$dolor.offset().top;
@@ -97,46 +94,81 @@
 			scale = 1
 		}
 
-		if(y <=53) {
+		// if(y <=79) {
+		// 	$maingraphic.css('opacity','0');
+
+		// }
+		// else {
+		// 	$maingraphic.css('opacity','.6');
+		// }
+
+		// if(y <=69) {
+		// 	$colorgraphic.css('left','89');
+		// 	$colorgraphic.css('transform', 'translateX('+ (-y*2) + 'px)'); 
+		// }
+		// else {
+		// 	$colorgraphic.css('left','74');
+		// 	$colorgraphic.css('transform', 'translateX('+ (-y) + 'px)'); 
+		// }
+
+		if(y <=59) {
 			$colorgraphic.css('opacity','0');
 			$maingraphic.css('opacity','0');
 		}
 		else {
 			$colorgraphic.css('opacity','1');
-			$maingraphic.css('opacity','.4');
+			$maingraphic.css('opacity','.6');
 		}
 
 		if(y>=0 && y<992) 	{
 	 		$elit.css('background-position', '30px ' + firstOffset + 'px' );
+	 		$midbase.css('background-position', '30px ' + secondOffset + 'px' );
 	 	}
 	 	if(y>=53 && y<102) 	{
-	 		$maingraphic.css('transform', 'rotate('+ (y * -.39 + 75)  + 'deg)');
+	 		$maingraphic.css('transform', 'rotate('+ (y * -.39 + 75) + 0 + 'deg)');
+	 		$colorgraphic.css('transform', 'rotate('+ (y * -.39 + 75)  + 'deg)');
 	 	}	
 	 	else {
 		 	$maingraphic.css('transform', 'rotate(0)');
-	 	}
-	 	if(y>=53 && y<102) 	{
-	 		$colorgraphic.css('transform', 'rotate('+ (y * -.39 + 75)  + 'deg)');
-	 		$colorgraphic.css('background-position', '30px ' + second + 'px' );
-	 	}
-	 	else {
 		 	$colorgraphic.css('transform', 'rotate(0)');
 	 	}
+	 	// if(y>=53 && y<102) 	{
+	 	// 	$colorgraphic.css('transform', 'rotate('+ (y * -.39 + 75)  + 'deg)');
+	 	// 	$maingraphic.css('transform', 'rotate('+ (y * -.39 + 75) + 0 + 'deg)');
+	 	// 	$colorgraphic.css('background-position', '30px ' + secondOffset + 'px' );
+	 	// }
+	 	// else {
+		 // 	$colorgraphic.css('transform', 'rotate(0)');
+		 // 	$maingraphic.css('transform', 'rotate(0)');
+	 	// }
 	 	 if(y>104 && y<750) 	{
 	 		// $colorgraphic.css('transform', 'translateX('+ (-y/3) + 'px)');	
 	 		// $maingraphic.css('transform', 'translateX('+ (-y) + 'px)');	 		
 	 	}
-	 	if(y<=108) 	{
+	 	if(y<=103) 	{
+	 		$maingraphic.css('left','0%');
+	 	}
+	 	else if (y<95) {
+	 		$maingraphic.css('left','0%');
+	 	}
+	 	else if (y<0) {
 	 		$maingraphic.css('left','0%');
 	 	}
 	 	else {
 	 		$maingraphic.css('left','-6%');
 	 	}
 	 	if(y>109) 	{
-	 		$maingraphic.css('transform', 'translateX('+ (-y) + 'px)');
-	 		$colorgraphic.css('transform', 'translateX('+ (-y) + 'px)');
+	 		$maingraphic.css('transform', 'translateX('+ (-y*2) + 'px)');
+	 		$colorgraphic.css('transform', 'translateX('+ (-y*2) + 'px)'); 		
 	 	}
 	 	
+	 	if(y>109) {
+	 		$colorgraphic.css('top','(y/10)' + '%');
+	 	}
+	 	else {
+	 		$colorgraphic.css('top','-2%');
+	 	}
+
 	 	if(y>720 && y<1127) 	{
 		 	$lorem.css('background-position', '0px ' + secondOffset + 'px' );
 		 	//$maingraphic.css('transform', 'translateX('+ y + 'px)');
