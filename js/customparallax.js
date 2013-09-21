@@ -199,12 +199,9 @@
 		 	$pagetwo.css('transform', 'translateX('+ twoOffset + 'px)');
 		 	$pagetwo.css({opacity: (y-400)/(860-400)*2});
 	 	}
-	 	if(y>1080 && y<1250) 	{
-		 	// $vidtext2.html(
-		 	// 	'<video width="350" height="200" autoplay="true" loop preload>' +
-		 	// 	'<source src="video/rawrlogo13.mp4" type="video/mp4">' +
-		 	// 	'<source src="video/rawrlogo13.webmhd.webm" type="video/webm">' +
-		 	// 	'</video>');
+	 	if(y>600 && y<860) 	{
+		 	// $pagetwo.css('transform', 'translateX('+ twoOffset + 'px)');
+		 	// $pagetwo.css({opacity: (y-400)/(860-400)*2});
 	 	}
 	 	else {
 		 	$vidtext2.empty();
