@@ -2,8 +2,8 @@
      
 	     var $primaryAnchors = $('ul.nav a');
 	     var $page = $('html,body')
-	     var $ipsumAnchor = $('ul.nav a.ipsum');
-	     var $ipsumText = $('#ipsum p');
+	     var $ipsumAnchor = $('ul.nav a.aboutpage');
+	     var $ipsumText = $('#aboutpage p');
 	     
 	     
 	     $primaryAnchors.click(function (event) {
@@ -21,12 +21,13 @@
      	
   $(document).ready(function() {
   		
-  		var $elit = $('#elit');
+  		var $pageone = $('#pageone');
   		var $lorem = $('#lorem');
-  		var $ipsum = $('#ipsum');
+  		var $aboutpage = $('#aboutpage');
   		var $dolor = $('#dolor');
   		var $sit = $('#sit');
   		var $amet = $('#amet');
+  		var $background = $('#background');
   		var $overlayipsum = $('#overlayipsum');
   		var $maingraphic = $('#maingraphic');
   		var $textgraphic = $('#textgraphic');
@@ -73,8 +74,8 @@
 	 	var y = $(window).scrollTop(); 
 	 	var yOffset = y/2;
 	 	var secondOffset = y/6 -(1/6)*$midbase.offset().top;
-	 	var firstOffset = y/3 -(1/3)*$elit.offset().top;
-	 	var otherOffset = y/5 -(1/5)*$ipsum.offset().top;
+	 	var firstOffset = y/3 -(1/3)*$pageone.offset().top;
+	 	var otherOffset = y/5 -(1/5)*$aboutpage.offset().top;
 	 	var nextOffset = y/6 -(1/6)*$dolor.offset().top;
 	 	var schedOffset = (y/6 -(1/6)*$sit.offset().top)*2.6;
 	 	var contOffset = y/6 -(1/6)*$amet.offset().top;
@@ -84,12 +85,12 @@
 		var verynextOffset = y/10;
 				
 
-		var scale = 1 + y/100 -(1/100)*$elit.offset().top;
+		var scale = 1 + y/100 -(1/100)*$pageone.offset().top;
 		if(scale<1) {
 			scale = 1
 		}
 		
-		var nextscale = 1 + (y/100 -(1/100)*$ipsum.offset().top)*2;
+		var nextscale = 1 + (y/100 -(1/100)*$aboutpage.offset().top)*2;
 		if(scale<1) {
 			scale = 1
 		}
@@ -121,8 +122,8 @@
 		}
 
 		if(y>=0 && y<992) 	{
-	 		$elit.css('background-position', '30px ' + firstOffset + 'px' );
-	 		$midbase.css('background-position', '30px ' + secondOffset + 'px' );
+	 		$pageone.css('background-position', '30px ' + firstOffset + 'px' );
+	 		// $midbase.css('background-position', '30px ' + secondOffset + 'px' );
 	 	}
 	 	if(y>=53 && y<102) 	{
 	 		$maingraphic.css('transform', 'rotate('+ (y * -.39 + 75) + 0 + 'deg)');
@@ -162,24 +163,28 @@
 	 		$colorgraphic.css('transform', 'translateX('+ (-y*2) + 'px)'); 		
 	 	}
 	 	
-	 	if(y>109) {
-	 		$colorgraphic.css('top','(y/10)' + '%');
-	 	}
-	 	else {
-	 		$colorgraphic.css('top','-2%');
-	 	}
+	 	// if(y>109) {
+	 	// 	$colorgraphic.css('top','(y/10)' + '%');
+	 	// }
+	 	// else {
+	 	// 	$colorgraphic.css('top','-2%');
+	 	// }
 
 	 	if(y>720 && y<1127) 	{
-		 	$lorem.css('background-position', '0px ' + secondOffset + 'px' );
+		 	// $lorem.css('background-position', '0px ' + secondOffset + 'px' );
 		 	//$maingraphic.css('transform', 'translateX('+ y + 'px)');
 		 	//$maingraphic.css('background-position', '200px ' + secondOffset + 'px' );
-		 	$graphic2.css('transform', 'translateY('+ y + 'px)');
-		 	$graphic2.css('background-position', '200px ' + secondOffset + 'px' );
-		 	$graphic2.css({opacity: (y-720)/(1127-720)});
+		 	// $graphic2.css('transform', 'translateY('+ y + 'px)');
+		 	// $graphic2.css('background-position', '200px ' + secondOffset + 'px' );
+		 	// $graphic2.css({opacity: (y-720)/(1127-720)});
 	 	}
+
+	 	// if(y>566 && y<1265) {
+	 	// 	$background.css('background-position', '30px ' + reverseOffset + 'px' );
+	 	// }
 	 	
 	 	if(y>1030 && y<1500) 	{
-	 		$graphic2.css({opacity: (y-1030)/(1500-1030)});
+	 		// $graphic2.css({opacity: (y-1030)/(1500-1030)});
 	 		
 	 	}
 	 	if(y>=0 && y<235) 	{
@@ -198,52 +203,59 @@
 		 	// $graphic2.css({opacity: (y-250)/(960-250)});
 		 	// $graphic2.css('transform', 'translateX('+ y + 'px)');
 		 	// $maingraphic.css('transform', 'translateX('- y + 'px)');
-		 	$maingraphic.css('background-position', '-200px ' + -secondOffset + 'px' );
+		 	// $maingraphic.css('background-position', '-200px ' + -secondOffset + 'px' );
 	 	}
 	 	if(y<1061) 	{
-		 	$vidtext.css('transform', 'translateY(0px)');
+		 	// $vidtext.css('transform', 'translateY(0px)');
 	 	}
-	 	if(y>800 && y<1060) 	{
-		 	$overlaytext.css({opacity: (y-800)/(1060-800)});
+	 	if(y>400 && y<860) 	{
+		 	$overlaytext.css({opacity: (y-400)/(860-400)*2});
 	 	}
 	 	if(y>1080 && y<1250) 	{
-		 	$vidtext2.html(
-		 		'<video width="350" height="200" autoplay="true" loop preload>' +
-		 		'<source src="video/rawrlogo13.mp4" type="video/mp4">' +
-		 		'<source src="video/rawrlogo13.webmhd.webm" type="video/webm">' +
-		 		'</video>');
+		 	// $vidtext2.html(
+		 	// 	'<video width="350" height="200" autoplay="true" loop preload>' +
+		 	// 	'<source src="video/rawrlogo13.mp4" type="video/mp4">' +
+		 	// 	'<source src="video/rawrlogo13.webmhd.webm" type="video/webm">' +
+		 	// 	'</video>');
 	 	}
 	 	else {
 		 	$vidtext2.empty();
 	 	}
 	 	if(y>1483 && y<1837) 	{
-		 	$vidtext.html(
-		 		'<video width="500" height="80" autoplay="true" loop preload>' +
-		 		'<source src="video/rawrlogo13.mp4" type="video/mp4">' +
-		 		'<source src="video/rawrlogo13.webmhd.webm" type="video/webm">' +
-		 		'</video>');
+		 	// $vidtext.html(
+		 	// 	'<video width="500" height="80" autoplay="true" loop preload>' +
+		 	// 	'<source src="video/rawrlogo13.mp4" type="video/mp4">' +
+		 	// 	'<source src="video/rawrlogo13.webmhd.webm" type="video/webm">' +
+		 	// 	'</video>');
 	 	}
 	 	else {
-		 	$vidtext.empty();
+		 	// $vidtext.empty();
 	 	}
 	 	if(y>1060 && y<2202) 	{
-		 	$ipsum.css('background-position', '0px ' + otherOffset + 'px' );
-		 	$vidtext.css('transform', 'translateY('+ ((y/3)-100) + 'px)');
-		 	$overlaytext.css({ width : 400, height: ((y*2/5)-200) });
+		 	// $aboutpage.css('background-position', '0px ' + otherOffset + 'px' );
+		 	// $vidtext.css('transform', 'translateY('+ ((y/3)-100) + 'px)');
+		 	// $overlaytext.css({ width : 400, height: ((y*2/5)-200) });
 	 	}
 	 	
 	 
-	 	if(y>1352 && y<1979) 	{
-		 	$teal.css({opacity: (y-1352)/(1979-1352)});
+	 	if(y>800 && y<927) 	{
+		 	$teal.css({opacity: (y-800)/(1352-800)});
 		 	$maingraphic.css('background-position', '200px ' + secondOffset + 'px' );
 	 	}
+	 	if(y>927 && y<5200) 	{
+	 		// $overlaytext.delay(1000).css('height', '700px').css('opacity', (y-927)/(5200-927)*2);
+	 	}
+	 	if(y>1433 && y<5200) 	{
+	 		$overlaytext.delay(1000).css('opacity', (y-1433)/(5200-1433)*2);
+	 	}
+
 	 
 	 	if(y>1130 && y<1227) 	{
 		 	$lorem.css('background-position', '0px ' + secondOffset + 'px' );
 	 	}
 	 	
 	 	if(y>1852 && y<2360) 	{
-		 	$ipsum.css('background-position', '0px ' + yOffset + 'px' );
+		 	$aboutpage.css('background-position', '0px ' + yOffset + 'px' );
 		 	
 	 	}
 	 	if(y>2854 && y<4172) 	{

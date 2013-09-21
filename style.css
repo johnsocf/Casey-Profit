@@ -5,6 +5,7 @@ body {
 	margin: 0;
 	padding: 0;
 	color: #fff;
+	background-color: #fff;
 }
 
 #container {
@@ -16,7 +17,6 @@ body {
 #content {
 	width:1000px;
 	height:900px;
-	background-color:#F36;
 	margin-left:40px;
 }
 
@@ -40,12 +40,23 @@ body {
 	width:1280px;
 	position:absolute;
 	/*background-image:url(images/background.jpg);*/
-	background-color:#000;
-	margin-top:-150px;
+	background-color:#fff;
+	margin-top:-110px;
+}
+#pagetwo {
+	height:960px;
+	max-width:1080px;
+	width:36%;
+	top:20%;
+	left:4%;
+	background-size: 100%;
+	position:absolute;
+	background-image: url(images/mainimage.jpg);
+	background-repeat: no-repeat;
 }
 
-#elit #background {
-	height:960px;/*
+#pageone #background {
+	height:700px;/*
 	max-width:1080px;*/
 	width:100%;
 	background-size:100%;
@@ -121,7 +132,7 @@ ul.nav li a {
 	 
 	 a { outline: none; }	 
 	 
-	#elit {
+	#pageone {
 		height:960px;
 		max-width:1080px;
 		width:100%;
@@ -144,40 +155,37 @@ ul.nav li a {
 	}
 	
 		
-	#ipsum {
+	#aboutpage {
 		height:960px;
 		width:1080px;
 		background-image:url('');
 		background-repeat:no-repeat;
 		background-position: 0 0px;
-		position:absolute;
-		margin-top:0px;
+		position:relative;
 		transition: all 10.0s linear;
 		transform-style: preserve-3d;
 		perspective:100;
 	}
 	#midbase {
-		height:260px;
+		height:100px;
 		width:100%;
 		max-width:1080px;
 		background-color: #bada55;
 		background-image:url('');
 		background-repeat:no-repeat;
 		background-position: 0 0px;
-		position:relative;
-		margin-top: -18.5%;
+		position:absolute;
+		top:110%;
 		transition: all 10.0s linear;
 		transform-style: preserve-3d;
 	}
 	#overlayipsum {
 		height:960px;
 		width:1080px;
-		background-image:url('images/aboutbg2.jpg');
 		background-repeat:no-repeat;
 		background-position: 0 0px;
-		position:relative;
+		position:absolute;
 		margin-top:0px;
-		opacity:0;
 	}
 	#dolor {
 		height:960px;
@@ -410,16 +418,13 @@ ul.nav li a {
 	position:absolute;
 	margin-left:50px;
 	margin-top:200px;
-	background-color:#000;
 	opacity:1;
 }
 #vidtext2 {
 	height:200px;
-	width:350px;
+	width:600px;
 	position:absolute;
-	margin-top:200px;
-	margin-left:580px;
-	background-color:#000;
+	left:107%;
 }
 #bios {
 	height:900px;
@@ -435,28 +440,25 @@ ul.nav li a {
 	position:absolute;
 	margin-top:170px;
 	margin-left:35px;
-	background-color:#fff;
+	/*background-color:#fff;*/
 	opacity:1
 }
 #overlay {
-	height:750px;
-	width:1020px;
+	height:960px;
+	width:100%;
+	max-width:1080px;
 	float:left;
-	margin-top:190px;
-	margin-left:35px;
 	background-color:#06e0f8;
 	opacity:0;
 }
 #overlaytext {
-	height:224px;
-	width:400px;
+	height:586px;
+	max-width:600px;
+	width:132%;
 	position:absolute;
-	margin-top:170px;
-	margin-left:35px;
+	left:107%;
 	background-color:#15eeff;
-	margin-left:580px;
-	margin-top:420px;
-	opacity:0;
+	opacity:.2;
 }
 #maingraphic{
 	height:1287px;
