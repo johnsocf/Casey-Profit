@@ -456,6 +456,7 @@ ul.nav li a {
 	max-width:1081px;
 	width:100%;
 	position:absolute;
+	background-size: 100%;
 	left:0%;
 	top:16%;
 	background-color:#15eeff;
@@ -472,7 +473,7 @@ ul.nav li a {
 #maingraphic{
 	height:1287px;
 	width:926px;
-	left:0%;
+	left:-41%;
 	top:-42%;
 	background-color:#fff;
 	opacity:.5;

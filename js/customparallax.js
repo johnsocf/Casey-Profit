@@ -133,16 +133,16 @@
 	 		// $maingraphic.css('transform', 'translateX('+ (-y) + 'px)');	 		
 	 	}
 	 	if(y<=103) 	{
-	 		$maingraphic.css('left','0%');
+	 		$maingraphic.css('left','-30%');
 	 	}
-	 	else if (y<95) {
-	 		$maingraphic.css('left','0%');
+	 	else if (y<101) {
+	 		$maingraphic.css('left','-30%');
 	 	}
 	 	else if (y<0) {
-	 		$maingraphic.css('left','0%');
+	 		$maingraphic.css('left','-30%');
 	 	}
 	 	else {
-	 		$maingraphic.css('left','-6%');
+	 		$maingraphic.css('left','-41%');
 	 	}
 	 	if(y>109) 	{
 	 		$maingraphic.css('transform', 'translateX('+ (-y*2) + 'px)');
