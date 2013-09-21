@@ -31,27 +31,31 @@ body {
 }
 
 #main{
-	position:absolute;
+	width:80%;
+	margin: 0 auto;
 }
 
 #backgroundimage{
 	height:6080px;
 	width:1280px;
 	position:absolute;
-	background-image:url(images/background.jpg);
-	background-color:#04fb5e;
+	/*background-image:url(images/background.jpg);*/
+	background-color:#000;
 	margin-top:-150px;
 }
 
 #elit #background {
-	height:960px;
-	width:1080px;
+	height:960px;/*
+	max-width:1080px;*/
+	width:100%;
+	background-size:100%;
 	position:absolute;
-	background: url(images/mainimage2.jpg) no-repeat;
+	background-image: url(images/mainimage2.jpg);
+	background-repeat: no-repeat;
 }
 
 #page{
-	
+	width:100%;
 }
 
 #footer {
@@ -62,7 +66,6 @@ body {
 	background-position: 0px 0px;
 	margin-top:-500px;
 }
-
 .nav {
 	position:fixed;
 	z-index: 10;
@@ -76,16 +79,15 @@ body {
 
 #menu {
 	float:left;
-	margin-top:110px;
 	background-color:#fff;
-	width:1080;
+	width:100%;
 	height:30px;
-	margin-left:15px;
+	margin:110px 0 auto;
 }
 
 ul.nav {
-	max-width: 1080px;
-	width:100%;
+	width:90%;
+	margin-left: 6%;
 	height:30px;
 	list-style:none;
 	overflow:hidden;
@@ -95,13 +97,19 @@ ul.nav {
 }
 ul.nav li{
 	float:left;
+	margin:0;
+	width:12%;
+	margin: auto 1%;
 }
 
+ul.nav > :first-child {
+	margin-left:13%;
+}
 
 ul.nav li a {
 	display: block;
 	margin: 0px 5px;
-	width:150px;
+	
 	text-decoration: none;
 	color:#000;
 	font-weight: 300;
@@ -109,66 +117,16 @@ ul.nav li a {
 	font-size: 140%;
 }
 
-     ul.nav li a.elit {
-		 width: 150px; background-position: 0 0;
-		 height: 30px;
-	 }
-
-    ul.nav li a.elit:hover, ul.nav li a.elit:focus {
-		 background-position: 0 -30px;
-	 }
-	 
-	 ul.nav li a.lorem {
-		 width: 150px; background-position: 0 0;
-		 height: 30px;
-	 }
-
-    ul.nav li a.lorem:hover, ul.nav li a.lorem:focus {
-		 background-position: 0 -30px;
-	 }
-	 
-	 ul.nav li a.ipsum {
-		  width: 150px; background-position: 0 0;
-		 height: 30px;
-	 }
-
-     ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
-		 background-position: 0px -30px;
-	 }
-	 
-	  ul.nav li a.dolor {
-		 width: 150px; background-position: 0 0;
-		 height: 30px;
-	 }
-
-     ul.nav li a.dolor:hover, ul.nav li a.dolor:focus {
-		 background-position: 0px -30px;
-	 }
-	 ul.nav li a.sit {
-		  width: 190px; background-position: 0 0;
-		 height: 30px;
-		 margin-left:0px;
-	 }
-
-     ul.nav li a.sit:hover, ul.nav li a.sit:focus {
-		 background-position: 0px -30px;
-	 }
-	 ul.nav li a.amet {
-		  width: 150px; background-position: 0 0;
-		 height: 30px;
-		 margin-left:30px;
-	 }
-
-     ul.nav li a.amet:hover, ul.nav li a.amet:focus {
-		 background-position: 0px -30px;
-	 }
 
 	 
 	 a { outline: none; }	 
 	 
 	#elit {
 		height:960px;
-		width:1080px;
+		max-width:1080px;
+		width:100%;
+		background-size: 100%;
+		overflow: hidden;
 		background-color:#fff;
 		background-repeat: no-repeat;
 		background-position: 0 0px;
@@ -200,14 +158,14 @@ ul.nav li a {
 	}
 	#midbase {
 		height:260px;
-		width:1080px;
-		top:12%;
+		width:100%;
+		max-width:1080px;
 		background-color: #bada55;
 		background-image:url('');
 		background-repeat:no-repeat;
 		background-position: 0 0px;
 		position:relative;
-		margin-top: -12.5%;
+		margin-top: -18.5%;
 		transition: all 10.0s linear;
 		transform-style: preserve-3d;
 	}
@@ -317,11 +275,12 @@ ul.nav li a {
 }
 #title {
 	height:70px;
-	width:1080px;
+	width:97%;
 	float:left;
 	margin-top:20px;
 	margin-left:30px;
 	background-color:#fff;
+	background: url(images/logo2.jpg) no-repeat;
 }
 #schedbox {
 	height:600px;
@@ -512,6 +471,7 @@ ul.nav li a {
     -ms-transform: rotate(75deg);
     transform: rotate(75deg);
 	position:absolute;
+	opacity: 0;
 }
 #colorgraphic{
 	height:1077px;
@@ -519,6 +479,7 @@ ul.nav li a {
 	background-color: #000;
 	top:-2%;
 	left:74%;
+	opacity: 0;
 	-webkit-transform: rotate(85deg);
     -moz-transform: rotate(85deg);
     -o-transform: rotate(85deg);
