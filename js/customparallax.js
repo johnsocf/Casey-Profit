@@ -34,6 +34,8 @@
   		var $colorgraphic = $('#colorgraphic');
   		var $aboutbg = $('#aboutbg');
   		var $teal = $('#overlay');
+  		var $pagetwo = $('#pagetwo');
+  		var $midbase = $('#midbase');
   		var $graphic2 = $('#graphic2');
   		var $nextdolor = $('#nextdolor');
   		var $overlaytext = $('#overlaytext');
@@ -44,28 +46,11 @@
   		var $schedbg1 = $('#schedbg1');
   		var $schedbg2 = $('#schedbg2');
   		var $backgroundimage = $('#backgroundimage');
-  		var $frame1 = $('#frame1');
-  		var $box1 = $('#box1');
-  		var $frame2 = $('#frame2');
-  		var $box2 = $('#box2');
-  		var $frame3 = $('#frame3');
-  		var $box3 = $('#box3');
-  		var $frame4 = $('#frame4');
-  		var $box4 = $('#box4');
   		var $bios = $('#bios');
   		var $overlaytext = $('#overlaytext');
   		var $vidtext = $('#vidtext');
   		var $nextpageblue = $('#npboutline');
   		var $npbbackground = $('#npbbackground');
-  		var $npbimg2 = $('#npbimg2');
-  		var $npbimg1 = $('#npbimg1');
-  		var $npbimg3 = $('#npbimg3');
-  		var $npbimg4 = $('#npbimg4');
-  		var $npbimg5 = $('#npbimg5');
-  		var $npbimg6 = $('#npbimg6');
-  		var $npbimg7 = $('#npbimg7');
-  		var $npbimg8 = $('#npbimg8');
-  		var $midbase = $('#midbase');
 
 
 
@@ -79,6 +64,7 @@
 	 	var nextOffset = y/6 -(1/6)*$dolor.offset().top;
 	 	var schedOffset = (y/6 -(1/6)*$sit.offset().top)*2.6;
 	 	var contOffset = y/6 -(1/6)*$amet.offset().top;
+	 	var twoOffset = y/2 -(1/2)*$pagetwo.offset().top;
 		var bkwdsOffset = y/7;
 		var reverseOffset = -y/2;
 		var boxreverseOffset = -y/5;
@@ -195,7 +181,7 @@
 
 	 	}
 	 	if(y>559 && y<960) 	{
-		 	
+		 	// $pagetwo.css('transform', 'translateX('+ 20 + 'px)');
 		 	// $maingraphic.css({ width : 1100, height: 900 });
 		 	// $colorgraphic.css({ width : 1100, height: 900 });
 	 	}
@@ -210,6 +196,8 @@
 	 	}
 	 	if(y>400 && y<860) 	{
 		 	$overlaytext.css({opacity: (y-400)/(860-400)*2});
+		 	$pagetwo.css('transform', 'translateX('+ twoOffset + 'px)');
+		 	$pagetwo.css({opacity: (y-400)/(860-400)*2});
 	 	}
 	 	if(y>1080 && y<1250) 	{
 		 	// $vidtext2.html(

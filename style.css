@@ -44,11 +44,11 @@ body {
 	margin-top:-110px;
 }
 #pagetwo {
-	height:960px;
+	height:952px;
 	max-width:1080px;
-	width:36%;
-	top:20%;
-	left:4%;
+	width:31.3%;
+	top:19.7%;
+	left:23%;
 	background-size: 100%;
 	position:absolute;
 	background-image: url(images/mainimage.jpg);
@@ -453,12 +453,21 @@ ul.nav li a {
 }
 #overlaytext {
 	height:586px;
-	max-width:600px;
-	width:132%;
+	max-width:1081px;
+	width:100%;
 	position:absolute;
-	left:107%;
+	left:0%;
+	top:16%;
 	background-color:#15eeff;
-	opacity:.2;
+	opacity:1.2;
+}
+#overlaytext video {
+	height:576px;
+	max-width:1081px;
+	width:76%;
+	position:absolute;
+	left:20%;
+	opacity:1.2;
 }
 #maingraphic{
 	height:1287px;
