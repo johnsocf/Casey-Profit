@@ -53,6 +53,7 @@
   		var $nextpageblue = $('#npboutline');
   		var $npbbackground = $('#npbbackground');
   		var $pagethree = $('#pagethree');
+  		var $navbtn = $('.navbtn');
 
 
 
@@ -152,13 +153,16 @@
 		 	$teal.css({opacity: (y-800)/(1352-800)});
 		 	$maingraphic.css('background-position', '200px ' + secondOffset + 'px' );
 	 	}
-	 	if(y>1433 && y<5200) 	{
-	 		// $overlaytext.delay(1000).css('opacity', (y-1433)/(5200-1433)*2);
+	 	if(y>0 && y<1100) 	{
+	 		$lorem.css('top','40%');
+	 		
 	 	}
 	 	if(y>1500 && y<2527) 	{
 	 		$lorem.css('opacity','1');
+	 		$lorem.css('top','23%');
 		 	$lorem.css('background-position', '0px ' + yOffset + 'px' );
 		 	$pagethree.css('background-position', '0px ' + thirdOffset + 'px' );
+		 	$navbtn.css('margin-left', '123px');
 	 	}
 
 

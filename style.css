@@ -55,11 +55,11 @@ body {
 	background-repeat: no-repeat;
 }
 #pagethree {
-	height:400px;
+	height:185px;
 	max-width:1093px;
 	width:96%;
 	left:10%;
-	top:260%;
+	top:295%;
 	margin:0 auto;
 	opacity: .7;
 	background-size: 100%;
@@ -175,7 +175,7 @@ ul.nav li a {
 	}
 
 	#base2 {
-		height:20px;
+		height:200px;
 		width:1080px;
 		background-color: #fff;
 	}
@@ -218,7 +218,7 @@ ul.nav li a {
 		transition: all 10.0s linear;
 		transform-style: preserve-3d;
 	}
-	#overlayipsum {
+	/*#overlayipsum {
 		height:960px;
 		width:1080px;
 		background-repeat:no-repeat;
@@ -282,44 +282,8 @@ ul.nav li a {
 		position:relative;
 		opacity:.8;
 	}
+	*/
 	
-	#menubox {
-		height:130px;
-		width:1080px;
-		background-color:#fff;
-		position:relative;
-	}
-	
-	#gallerybox {
-		height:670px;
-		width:1080px;
-		background-color:#000;
-		float:left;
-		margin-left:32px;
-		margin-top:200px;
-		
-	}
-
-	#gallery {
-		height:650px;
-		width:1040px;
-		background-color:#000;
-		position:absolute;
-		margin-right:40px;
-		margin-top:10px;
-	}
-#block {
-	height:50px;
-	width:50px;
-	background-color:#04e6ff;
-	background-position: 0px 0px;
-	position:relative;
-}
-#myDiv {
-	background-position: 0px 30px;
-	margin-left:20px;
-	position:absolute;
-}
 #title {
 	height:70px;
 	width:97%;
@@ -359,97 +323,50 @@ ul.nav li a {
 	margin-top:182px;
 }*/
 #contactform {
-	height:650px;
-	width:1080px;
-	margin-top:250px;
-	margin-left:0px;
-	position:absolute;
-}
-#frame1{
-	height:210px;
-	width:210px;
-	background-color:#08f7e3;
-	position:absolute;
-	margin-top:10px;
-	margin-left:930px;
-}
-#box1 {
-	height:200px;
-	width:200px;
-	position:absolute;
-	margin-top:5px;
-	margin-left:5px;
-	background-color:#000;
-}
-#box1 a{
-	height:200px;
-	width:200px;
-}
-#frame2{
-	height:210px;
-	width:210px;
-	background-color:#08f7e3;
-	position:absolute;
-	margin-top:10px;
-	margin-left:1050px;
-
-}
-#box2 {
-	height:200px;
-	width:200px;
+	height:960px;
+	max-width:1066px;
+	margin-left: 86px;
 	position:relative;
-	margin-top:5px;
-	margin-left:5px;
-	background-color:#000;
+	background-color: #000
 }
-#frame3{
-	height:210px;
-	width:210px;
-	background-color:#08f7e3;
+
+#ecopage {
+	height:935px;
+	max-width:1200px;
+	position:relative;
+	width:100%;
+}
+#contactform img {
+	height:300;
+	width:56%;
+	position: absolute;
+	top:28%;
+	left:5%;
+}
+
+#contactinfo {
+	height:960px;
+	max-width:1200px;
+	background-color:#fff;
+	position:relative;
+	width:100%;
+	margin:0 auto;
+	background-repeat: no-repeat;
+}
+#form {
+	height:300px;
+	width:300px;
 	position:absolute;
-	margin-top:260px;
-	margin-left:930px;
+	top:25%;
+	left:63%;
 }
-#frame4{
-	height:150px;
-	width:150px;
-	background-color:#fd07cb;
-	position:absolute;
-	margin-top:260px;
-	margin-left:1050px;
+#nextbutton .navbtn {
+	background-color:#fff;
+	background:#fff;
+	font-size:21px;
+	margin-left:137%;
 }
-#box3 {
-	height:200px;
-	width:200px;
-	margin-top:5px;
-	margin-left:5px;
-	position:absolute;
-	background-color:#000;
-}
-#box4 {
-	height:200px;
-	width:200px;
-	position:absolute;
-	margin-top:5px;
-	margin-left:5px;
-	background-color:#000;
-}
-#box5 {
-	height:200px;
-	width:200px;
-	position:absolute;
-	margin-top:230px;
-	margin-left:0px;
-	background-color:#000;
-}
-#box6 {
-	height:200px;
-	width:200px;
-	position:absolute;
-	margin-top:230px;
-	margin-left:230px;
-	background-color:#000;
-}
+/*
 #vidtext {
 	height:80px;
 	width:500px;
@@ -472,7 +389,7 @@ ul.nav li a {
 	margin-top:182px;
 	margin-left:35px;
 	background-color:#fff;
-}
+}*/
 #aboutbg {
 	height:750px;
 	width:1020px;
@@ -557,7 +474,7 @@ ul.nav li a {
     position: absolute;
     top:4.5%;
 }*/
-#textgraphic{
+/*#textgraphic{
 	height:100px;
 	width:660px;
 	background-color:#000;
@@ -619,7 +536,7 @@ ul.nav li a {
 	opacity:1;
 	margin-top:5px;
 	margin-left:0px;
-}
+}*/
 #footer7{
 	width:100%;
 	height:60px;
@@ -627,7 +544,7 @@ ul.nav li a {
 	background-color:#000;
 	position:absolute;
 }
-#nextpageblue{
+/*#nextpageblue{
 	width:770px;
 	height:400px;
 	margin-top:-900px;
@@ -657,3 +574,4 @@ ul.nav li a {
 	margin-left:50px;
 	position:absolute;
 }
+*/
