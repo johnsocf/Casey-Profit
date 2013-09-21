@@ -47,8 +47,9 @@ body {
 	height:952px;
 	max-width:1080px;
 	width:31.3%;
-	top:19.7%;
-	left:23%;
+	top:3%;
+	left:24%;
+	opacity: 0;
 	background-size: 100%;
 	position:absolute;
 	background-image: url(images/mainimage.jpg);
@@ -458,16 +459,27 @@ ul.nav li a {
 	position:absolute;
 	background-size: 100%;
 	left:0%;
-	top:16%;
 	background-color:#15eeff;
 	opacity:1.2;
 }
+#parallaxframe {
+	height:486px;
+	max-width:949px;
+	width:100%;
+	position:absolute;
+	background-size: 100%;
+	left:4%;
+	top:19%;
+	overflow: hidden;
+	border:24px solid #fff;
+	opacity:1.2;
+}
 #overlaytext video {
-	height:576px;
+	height:482px;
 	max-width:1081px;
 	width:76%;
 	position:absolute;
-	left:20%;
+	left:13%;
 	opacity:1.2;
 }
 #maingraphic{

@@ -35,6 +35,7 @@
   		var $aboutbg = $('#aboutbg');
   		var $teal = $('#overlay');
   		var $pagetwo = $('#pagetwo');
+  		var $overlaytextvid = $('#overlaytext video');
   		var $midbase = $('#midbase');
   		var $graphic2 = $('#graphic2');
   		var $nextdolor = $('#nextdolor');
@@ -64,7 +65,7 @@
 	 	var nextOffset = y/6 -(1/6)*$dolor.offset().top;
 	 	var schedOffset = (y/6 -(1/6)*$sit.offset().top)*2.6;
 	 	var contOffset = y/6 -(1/6)*$amet.offset().top;
-	 	var twoOffset = y/2 -(1/2)*$pagetwo.offset().top;
+	 	var twoOffset = y/5 -(1/5)*$pagetwo.offset().top;
 		var bkwdsOffset = y/7;
 		var reverseOffset = -y/2;
 		var boxreverseOffset = -y/5;
@@ -81,23 +82,6 @@
 			scale = 1
 		}
 
-		// if(y <=79) {
-		// 	$maingraphic.css('opacity','0');
-
-		// }
-		// else {
-		// 	$maingraphic.css('opacity','.6');
-		// }
-
-		// if(y <=69) {
-		// 	$colorgraphic.css('left','89');
-		// 	$colorgraphic.css('transform', 'translateX('+ (-y*2) + 'px)'); 
-		// }
-		// else {
-		// 	$colorgraphic.css('left','74');
-		// 	$colorgraphic.css('transform', 'translateX('+ (-y) + 'px)'); 
-		// }
-
 		if(y <=59) {
 			$colorgraphic.css('opacity','0');
 			$maingraphic.css('opacity','0');
@@ -109,7 +93,6 @@
 
 		if(y>=0 && y<992) 	{
 	 		$pageone.css('background-position', '30px ' + firstOffset + 'px' );
-	 		// $midbase.css('background-position', '30px ' + secondOffset + 'px' );
 	 	}
 	 	if(y>=53 && y<102) 	{
 	 		$maingraphic.css('transform', 'rotate('+ (y * -.39 + 75) + 0 + 'deg)');
@@ -118,19 +101,6 @@
 	 	else {
 		 	$maingraphic.css('transform', 'rotate(0)');
 		 	$colorgraphic.css('transform', 'rotate(0)');
-	 	}
-	 	// if(y>=53 && y<102) 	{
-	 	// 	$colorgraphic.css('transform', 'rotate('+ (y * -.39 + 75)  + 'deg)');
-	 	// 	$maingraphic.css('transform', 'rotate('+ (y * -.39 + 75) + 0 + 'deg)');
-	 	// 	$colorgraphic.css('background-position', '30px ' + secondOffset + 'px' );
-	 	// }
-	 	// else {
-		 // 	$colorgraphic.css('transform', 'rotate(0)');
-		 // 	$maingraphic.css('transform', 'rotate(0)');
-	 	// }
-	 	 if(y>104 && y<750) 	{
-	 		// $colorgraphic.css('transform', 'translateX('+ (-y/3) + 'px)');	
-	 		// $maingraphic.css('transform', 'translateX('+ (-y) + 'px)');	 		
 	 	}
 	 	if(y<=103) 	{
 	 		$maingraphic.css('left','0%');
@@ -149,90 +119,40 @@
 	 		$colorgraphic.css('transform', 'translateX('+ (-y*2) + 'px)'); 		
 	 	}
 	 	
-	 	// if(y>109) {
-	 	// 	$colorgraphic.css('top','(y/10)' + '%');
-	 	// }
-	 	// else {
-	 	// 	$colorgraphic.css('top','-2%');
-	 	// }
-
-	 	if(y>720 && y<1127) 	{
-		 	// $lorem.css('background-position', '0px ' + secondOffset + 'px' );
-		 	//$maingraphic.css('transform', 'translateX('+ y + 'px)');
-		 	//$maingraphic.css('background-position', '200px ' + secondOffset + 'px' );
-		 	// $graphic2.css('transform', 'translateY('+ y + 'px)');
-		 	// $graphic2.css('background-position', '200px ' + secondOffset + 'px' );
-		 	// $graphic2.css({opacity: (y-720)/(1127-720)});
-	 	}
-
-	 	// if(y>566 && y<1265) {
-	 	// 	$background.css('background-position', '30px ' + reverseOffset + 'px' );
-	 	// }
-	 	
-	 	if(y>1030 && y<1500) 	{
-	 		// $graphic2.css({opacity: (y-1030)/(1500-1030)});
-	 		
-	 	}
-	 	if(y>=0 && y<235) 	{
-		 	
-		 	// $maingraphic.css({ width : 220, height: 2000 });
-		 	// $colorgraphic.css({ width : 460, height: 2680 });
-
-
-	 	}
-	 	if(y>559 && y<960) 	{
-		 	// $pagetwo.css('transform', 'translateX('+ 20 + 'px)');
-		 	// $maingraphic.css({ width : 1100, height: 900 });
-		 	// $colorgraphic.css({ width : 1100, height: 900 });
-	 	}
-	 	if(y>250 && y<960) 	{
-		 	// $graphic2.css({opacity: (y-250)/(960-250)});
-		 	// $graphic2.css('transform', 'translateX('+ y + 'px)');
-		 	// $maingraphic.css('transform', 'translateX('- y + 'px)');
-		 	// $maingraphic.css('background-position', '-200px ' + -secondOffset + 'px' );
-	 	}
-	 	if(y<1061) 	{
-		 	// $vidtext.css('transform', 'translateY(0px)');
-	 	}
 	 	if(y>400 && y<860) 	{
 		 	$overlaytext.css({opacity: (y-400)/(860-400)*2});
-		 	$pagetwo.css('transform', 'translateX('+ twoOffset + 'px)');
+		 	
+		 	
+
 		 	$pagetwo.css({opacity: (y-400)/(860-400)*2});
 	 	}
-	 	if(y>600 && y<860) 	{
-		 	// $pagetwo.css('transform', 'translateX('+ twoOffset + 'px)');
-		 	// $pagetwo.css({opacity: (y-400)/(860-400)*2});
+	 	if(y>545 && y<652) 	{
+		 	
+		 	$pagetwo.css('transform', 'translateX('+ (-twoOffset-7) + '%)');
+	 	}
+	 	if(y>551 && y<988) 	{
+		 	
+		 	$overlaytextvid.css('transform', 'translateX('+ (-twoOffset-81) + '%)');
 	 	}
 	 	else {
 		 	$vidtext2.empty();
 	 	}
-	 	if(y>1483 && y<1837) 	{
-		 	// $vidtext.html(
-		 	// 	'<video width="500" height="80" autoplay="true" loop preload>' +
-		 	// 	'<source src="video/rawrlogo13.mp4" type="video/mp4">' +
-		 	// 	'<source src="video/rawrlogo13.webmhd.webm" type="video/webm">' +
-		 	// 	'</video>');
-	 	}
-	 	else {
-		 	// $vidtext.empty();
-	 	}
-	 	if(y>1060 && y<2202) 	{
-		 	// $aboutpage.css('background-position', '0px ' + otherOffset + 'px' );
-		 	// $vidtext.css('transform', 'translateY('+ ((y/3)-100) + 'px)');
-		 	// $overlaytext.css({ width : 400, height: ((y*2/5)-200) });
-	 	}
-	 	
 	 
 	 	if(y>800 && y<927) 	{
 		 	$teal.css({opacity: (y-800)/(1352-800)});
 		 	$maingraphic.css('background-position', '200px ' + secondOffset + 'px' );
 	 	}
-	 	if(y>927 && y<5200) 	{
-	 		// $overlaytext.delay(1000).css('height', '700px').css('opacity', (y-927)/(5200-927)*2);
-	 	}
 	 	if(y>1433 && y<5200) 	{
 	 		$overlaytext.delay(1000).css('opacity', (y-1433)/(5200-1433)*2);
 	 	}
+
+
+
+
+
+
+
+
 
 	 
 	 	if(y>1130 && y<1227) 	{
