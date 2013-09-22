@@ -23,6 +23,7 @@
   		
   		var $pageone = $('#pageone');
   		var $lorem = $('#lorem');
+  		var $loremtwo = $('#loremtwo');
   		var $aboutpage = $('#aboutpage');
   		var $dolor = $('#dolor');
   		var $sit = $('#sit');
@@ -119,11 +120,16 @@
 	 		$maingraphic.css('left','0%');
 	 	}
 	 	else {
-	 		$maingraphic.css('left','-11%');
+	 		$maingraphic.css('left','-9%');
 	 	}
 	 	if(y>109) 	{
+	 		$maingraphic.css('width', '902px');
 	 		$maingraphic.css('transform', 'translateX('+ (-y*2) + 'px)');
-	 		$colorgraphic.css('transform', 'translateX('+ (-y*2) + 'px)'); 		
+	 		$colorgraphic.css('transform', 'translateX('+ (-y*2) + 'px)'); 	
+	 		$colorgraphic.css('height', '800px'); 		
+	 	}
+	 	else {
+	 		$colorgraphic.css('height', '1077px'); 
 	 	}
 	 	
 	 	if(y>400 && y<860) 	{
@@ -153,14 +159,21 @@
 		 	$teal.css({opacity: (y-800)/(1352-800)});
 		 	$maingraphic.css('background-position', '200px ' + secondOffset + 'px' );
 	 	}
-	 	if(y>0 && y<1100) 	{
-	 		$lorem.css('top','40%');
+	 	if(y>1040 && y<1500) 	{
+	 		// $lorem.css('top','40%');
+	 		$lorem.css('opacity','1');
+	 		$lorem.css('top','28.5%');
+	 		$lorem.css('background-position', '0px ' + -yOffset + 'px' );
 	 		
 	 	}
-	 	if(y>1500 && y<2527) 	{
-	 		$lorem.css('opacity','1');
-	 		$lorem.css('top','23%');
-		 	$lorem.css('background-position', '0px ' + yOffset + 'px' );
+	 	// else {
+	 	// 	$lorem.css('opacity','1');
+	 	// 	$lorem.css('top','28.5%');
+	 	// }
+	 	if(y>1200 && y<2527) 	{
+	 		$loremtwo.css('opacity','1');
+	 		$loremtwo.css('top','17.5%');
+		 	$loremtwo.css('background-position', '0px ' + yOffset + 'px' );
 		 	$pagethree.css('background-position', '0px ' + thirdOffset + 'px' );
 		 	$navbtn.css('margin-left', '123px');
 	 	}

@@ -30,8 +30,11 @@ body {
 }
 
 #main{
-	width:80%;
+	width:88%;
+	height:2000px;
+	background-size: 100%;
 	margin: 0 auto;
+	position: relative
 }
 
 #backgroundimage{
@@ -56,14 +59,14 @@ body {
 }
 #pagethree {
 	height:185px;
-	max-width:1093px;
-	width:96%;
-	left:10%;
-	top:295%;
+	max-width:1180px;
+	width:100%;
+	top:67.5%;
+	left:5%;
 	margin:0 auto;
 	opacity: .7;
 	background-size: 100%;
-	position:absolute;
+	position: absolute;
 	background-color: #fff;
 	background-repeat: no-repeat;
 }
@@ -85,7 +88,7 @@ body {
 	background-repeat: no-repeat;
 }
 
-#pageone #background {
+#background {
 	height:700px;/*
 	max-width:1080px;*/
 	width:100%;
@@ -97,16 +100,11 @@ body {
 
 #page{
 	width:100%;
+	height:3000px;
+	position: relative;
+	margin:0 auto;
 }
 
-#footer {
-	background-color:#666;
-	height:450px;
-	width:1080px;
-	position:relative;
-	background-position: 0px 0px;
-	margin-top:-500px;
-}
 .nav {
 	position:fixed;
 	z-index: 10;
@@ -119,8 +117,6 @@ body {
 
 
 #menu {
-	float:left;
-	background-color:#fff;
 	width:100%;
 	height:30px;
 	margin:110px 0 auto;
@@ -158,181 +154,109 @@ ul.nav li a {
 	font-size: 140%;
 }
 
-
+a { outline: none; }	 
 	 
-	 a { outline: none; }	 
-	 
-	#pageone {
-		height:960px;
-		max-width:1080px;
-		width:100%;
-		background-size: 100%;
-		overflow: hidden;
-		background-color:#fff;
-		background-repeat: no-repeat;
-		background-position: 0 0px;
-		position:relative;
-	}
-
-	#base2 {
-		height:200px;
-		width:1080px;
-		background-color: #fff;
-	}
-
-	#lorem {
-		height:2000px;
-		max-width:1200px;
-		width:100%;
-		top:20%;
-		left:10%;
-		background-image:url('images/wellness.jpg');
-		background-repeat: no-repeat;
-		background-position: 0 0px;
-		position:absolute;
-		background-color: #fff;
-	}
-	
-		
-	#aboutpage {
-		height:960px;
-		width:1080px;
-		background-image:url('');
-		background-repeat:no-repeat;
-		background-position: 0 0px;
-		position:relative;
-		transition: all 10.0s linear;
-		transform-style: preserve-3d;
-		perspective:100;
-	}
-	#midbase {
-		height:100px;
-		width:100%;
-		max-width:1080px;
-		background-color: #bada55;
-		background-image:url('');
-		background-repeat:no-repeat;
-		background-position: 0 0px;
-		position:absolute;
-		top:110%;
-		transition: all 10.0s linear;
-		transform-style: preserve-3d;
-	}
-	/*#overlayipsum {
-		height:960px;
-		width:1080px;
-		background-repeat:no-repeat;
-		background-position: 0 0px;
-		position:absolute;
-		margin-top:0px;
-	}
-	#dolor {
-		height:960px;
-		width:1080px;
-		background-repeat:no-repeat;
-		background-position: 0 0px;
-		position:relative;
-		margin-top:0px;
-		background-color:#2d08fc;
-		opacity:.8;
-	}
-	
-	#sit {
-		height:960px;
-		width:1080px;
-		background-image:url('');
-		background-repeat:no-repeat;
-		background-position: 0 0px;
-		margin-top:0px;
-		position:relative;
-		background-color:#00acfb;
-		opacity:.8;
-	}
-	#schedbg1 {
-		height:960px;
-		width:1080px;
-		background-image:url('');
-		background-repeat:no-repeat;
-		background-position: 0 0px;
-		margin-top:0px;
-		position:absolute;
-		background-color:#00acfb;
-		opacity:1;
-	}
-	#schedbg2 {
-		height:960px;
-		width:1080px;
-		background-image:url('');
-		background-repeat:no-repeat;
-		background-position: 0 0px;
-		margin-top:0px;
-		position:relative;
-		background-color:#c6fb07;
-		opacity:0;
-	}
-	
-	#amet {
-		height:960px;
-		width:1080px;
-		background-image:url('');
-		background-repeat:no-repeat;
-		background-position: 0px 0px;
-		background-color:#fc08cc;
-		margin-top:0px;
-		position:relative;
-		opacity:.8;
-	}
-	*/
-	
+#pageone {
+	height:960px;
+	max-width:1080px;
+	width:100%;
+	background-size: 100%;
+	overflow: hidden;
+	background-color:#fff;
+	background-repeat: no-repeat;
+	background-position: 0 0px;
+	position:relative;
+}
+#base2 {
+	height:200px;
+	width:1080px;
+	background-color: #fff;
+}
+#lorem {
+	height:2000px;
+	max-width:1080px;
+	width:88%;
+	left:6%;
+	top:20%;
+	opacity: 0;
+	background-image:url('images/wellness.jpg');
+	background-repeat: no-repeat;
+	background-position: 0 0px;
+	position:absolute;
+	background-color: #fff;
+}
+#loremtwo {
+	height:2000px;
+	max-width:1080px;
+	width:88%;
+	left:6%;
+	top:20%;
+	opacity: 0;
+	background-image:url('images/wellness.jpg');
+	background-repeat: no-repeat;
+	background-position: 0 0px;
+	position:absolute;
+	background-color: #fff;
+}
+#adinfinium {
+	height:2000px;
+	max-width:1080px;
+	width:88%;
+	left:6%;
+	top:10%;
+	opacity: 0;
+	/*background-image:url('images/wellness.jpg');*/
+	background-repeat: no-repeat;
+	background-position: 0 0px;
+	position:absolute;
+	background-color: blue;
+}	
+#aboutpage {
+	height:960px;
+	width:1080px;
+	background-image:url('');
+	background-repeat:no-repeat;
+	background-position: 0 0px;
+	position:relative;
+	transition: all 10.0s linear;
+	transform-style: preserve-3d;
+	perspective:100;
+}
+#midbase {
+	height:100px;
+	width:100%;
+	max-width:1080px;
+	background-color: #bada55;
+	background-image:url('');
+	background-repeat:no-repeat;
+	background-position: 0 0px;
+	position:absolute;
+	top:75%;
+	transition: all 10.0s linear;
+	transform-style: preserve-3d;
+}
 #title {
 	height:70px;
 	width:97%;
 	float:left;
-	margin-top:20px;
+	margin-top:-70px;
 	margin-left:30px;
 	background-color:#fff;
 	background: url(images/logo2.jpg) no-repeat;
 }
-#schedbox {
-	height:600px;
-	width:400px;
-	position:absolute;
-	margin-top:180px;
-	margin-left:35px;
-	background-color:#fff;
-}
-#contactbg{
-	height:600px;
-	width:600px;
-	background-color:#1041e4;
-	position:absolute;
-	margin-top:180px;
-	margin-left:-80px;
-}
-#contactbg2{
-	height:600px;
-	width:1010px;
-	background-color:#000;
-	position:absolute;
-	margin-top:180px;
-	margin-left:33px;
-}/*
-#images {
-	height:650px;
-	width:1080px;
-	margin-top:182px;
-}*/
 #contactform {
 	height:960px;
-	max-width:1066px;
-	margin-left: 86px;
-	position:relative;
+	max-width:1080px;
+	top:-22%;
+	width:100%;
+	position:absolute;
+	margin:0 auto;
 	background-color: #000
 }
 
 #ecopage {
 	height:935px;
-	max-width:1200px;
+	max-width:1080px;
 	position:relative;
 	width:100%;
 }
@@ -346,11 +270,12 @@ ul.nav li a {
 
 #contactinfo {
 	height:960px;
-	max-width:1200px;
+	max-width:1080px;
 	background-color:#fff;
+	margin-left:6%;
+	margin-top: 15%;
 	position:relative;
 	width:100%;
-	margin:0 auto;
 	background-repeat: no-repeat;
 }
 #form {
@@ -360,36 +285,6 @@ ul.nav li a {
 	top:25%;
 	left:63%;
 }
-#nextbutton .navbtn {
-	background-color:#fff;
-	background:#fff;
-	font-size:21px;
-	margin-left:137%;
-}
-/*
-#vidtext {
-	height:80px;
-	width:500px;
-	float:left;
-	position:absolute;
-	margin-left:50px;
-	margin-top:200px;
-	opacity:1;
-}
-#vidtext2 {
-	height:200px;
-	width:600px;
-	position:absolute;
-	left:107%;
-}
-#bios {
-	height:900px;
-	width:800px;
-	position:absolute;
-	margin-top:182px;
-	margin-left:35px;
-	background-color:#fff;
-}*/
 #aboutbg {
 	height:750px;
 	width:1020px;
@@ -400,7 +295,7 @@ ul.nav li a {
 	opacity:1
 }
 #overlay {
-	height:960px;
+	height:1058px;
 	width:100%;
 	max-width:1080px;
 	float:left;
@@ -424,7 +319,7 @@ ul.nav li a {
 	position:absolute;
 	background-size: 100%;
 	left:4%;
-	top:19%;
+	top:7%;
 	overflow: hidden;
 	border:24px solid #fff;
 	opacity:1.2;
@@ -441,7 +336,7 @@ ul.nav li a {
 	height:1287px;
 	width:926px;
 	left:-41%;
-	top:-42%;
+	top:-45%;
 	background-color:#fff;
 	opacity:.5;
 	-webkit-transform: rotate(75deg);
@@ -466,77 +361,7 @@ ul.nav li a {
     transform: rotate(85deg);
 	position:absolute;
 	/*background: url(images/squeege2.png) no-repeat;*/
-}/*
-#colorgraphic img{
-	-webkit-transform: rotate(319deg);
-    -moz-transform: rotate(54deg);
-    transform: rotate(54deg);
-    position: absolute;
-    top:4.5%;
-}*/
-/*#textgraphic{
-	height:100px;
-	width:660px;
-	background-color:#000;
-	margin-top:170px;
-	margin-left:25px;
-	position:absolute;
 }
-#graphic2{
-	height:1180px;
-	width:1160px;
-	background-color:#00f8fc;
-	-webkit-transform: rotate(75deg);
-    -moz-transform: rotate(75deg);
-    -o-transform: rotate(75deg);
-    -ms-transform: rotate(75deg);
-    transform: rotate(75deg);
-	margin-top:100px;
-	margin-left:0px;
-	position:relative;
-	opacity:0
-}
-#bgdolor1{
-	height:960px;
-	width:1080px;
-	background-color:#63f945;
-	position:absolute;
-	opacity:1;
-}
-#nextdolor{
-	height:960px;
-	width:1080px;
-	background-color:#1597fb;
-	position:relative;
-	opacity:1;
-}
-#sideimage{
-	height:6360px;
-	width:580px;
-	background-color:#000;
-	position:absolute;
-	opacity:1;
-	margin-top:0px;
-	margin-left:1080px;
-}
-#sideimage2{
-	height:6360px;
-	width:10px;
-	background-color:#000;
-	position:absolute;
-	opacity:1;
-	margin-top:0px;
-	margin-left:5px;
-}
-#topimage2{
-	height:10px;
-	width:1080px;
-	background-color:#000;
-	position:absolute;
-	opacity:1;
-	margin-top:5px;
-	margin-left:0px;
-}*/
 #footer7{
 	width:100%;
 	height:60px;
@@ -544,34 +369,3 @@ ul.nav li a {
 	background-color:#000;
 	position:absolute;
 }
-/*#nextpageblue{
-	width:770px;
-	height:400px;
-	margin-top:-900px;
-	background-image:url(images/nextpageblue2.jpg);
-	background-repeat: no-repeat;
-	margin-left:50px;
-	position:absolute;
-	opacity:0;
-}
-#npboutline{
-	width:770px;
-	height:500px;
-	rotation:30deg;
-	margin-top:-800px;
-	background-image:url(images/nextpageblueoutline.png);
-	background-repeat: no-repeat;
-	margin-left:50px;
-	position:absolute;
-	
-}
-#npbbackground{
-	width:770px;
-	height:500px;
-	margin-top:-800px;
-	background-color:#000;
-	background-repeat: no-repeat;
-	margin-left:50px;
-	position:absolute;
-}
-*/
