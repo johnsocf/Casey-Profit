@@ -27,6 +27,7 @@
   		var $loremtwo = $('#loremtwo');
   		var $background = $('#background');
   		var $mainimage = $('#mainimage');
+  		var $mainimagevideo = $('#mainimage video');
   		var $maingraphic = $('#maingraphic');
   		var $textgraphic = $('#textgraphic');
   		var $colorgraphic = $('#colorgraphic');
@@ -60,12 +61,14 @@
 			$colorgraphic.css('opacity','0');
 			$colorgraphictwo.css('opacity','0');
 			$maingraphic.css('opacity','0');
+			$mainimage.css('opacity','0');
 			$lorem.css('opacity','0');
 		}
 		else {
 			$colorgraphictwo.css('opacity','1');
-			$colorgraphic.css('opacity','1');
-			$maingraphic.css('opacity','.6');
+			$colorgraphic.css('opacity','.9');
+			$maingraphic.css('opacity','1');
+			$mainimage.css('opacity','1');
 		}
 		if(y>=0 && y<992) 	{
 	 		$pageone.css('background-position', '30px ' + firstOffset + 'px' );
@@ -86,29 +89,13 @@
 		 	$colorgraphic.css('transform', 'rotate(0)');
 		 	$colorgraphictwo.css('transform', 'rotate(0)');
 	 	}
-	 	// if(y<=103) 	{
-	 	// 	$maingraphic.css('left','0%');
-	 	// }
-	 	// else if (y<101) {
-	 	// 	$maingraphic.css('left','0%');
-	 	// }
-	 	// else if (y<0) {
-	 	// 	$maingraphic.css('left','0%');
-	 	// }
-	 	// else {
-	 	// 	$maingraphic.css('left','-9%');
-	 	// }
-	 	// if(y>108) {
-	 	// 	$colorgraphictwo.css('top', '-8');
-	 	// 	$colorgraphictwo.css('left', '39%');
-	 	// }
-	 	// else {
-	 		
-	 	// }
 	 	if(y>109) 	{
-	 		$maingraphic.css('height', '3000px');
-	 		$maingraphic.css('width', '902px');
+	 		// $maingraphic.css('height', '3000px');
+	 		$maingraphic.css('max-width', '1000px');
+	 		$maingraphic.css('top', '-44%');
+	 		$maingraphic.css('padding-bottom', '262%');
 	 		$maingraphic.css('transform', 'translateX('+ (-y) + 'px)');
+	 		$colorgraphic.css({opacity: ((1)/(y/10)*100)-1.6});
 	 		$colorgraphic.css('transform', 'translateX('+ (-y) + 'px)'); 	
 	 		$colorgraphictwo.css('transform', 'translateX('+ (-y) + 'px)'); 
 	 		$colorgraphicthree.css('top', (-y/3)+ '%'); 	
@@ -116,11 +103,11 @@
 	 		$colorgraphic.css('height', '4000px'); 		
 	 	}
 	 	else {
-	 		$maingraphic.css('height', '2500px');
+	 		$maingraphic.css('padding-bottom', '244%');
+	 		$maingraphic.css('max-width', '1189px');
+	 		$maingraphic.css('top', '-66%');
 	 	}
-	 	if(y>189)  {
-	 		
-	 		$mainimage.css('transform', 'scale('+(y-189)/(860-189)+','+(y-189)/(860-189)+')');
+	 	if(y>=190 && y<627)  {
 	 		$background.css('opacity', '.8');
 	 		$colorgraphicthree.css('top', (y/2)-160+ '%'); 	
 	 		$colorgraphicfour.css('top', (y/2)-190+ '%'); 	
@@ -128,7 +115,36 @@
 	 	else {
 	 		$background.css('transform', 'scale('+((y/50)+.7)+','+((y/50)+.7)+')');
 	 	}
-	 	if(y>243)  {
+	 	if(y>=196 && y<495)  {
+	 		$mainimage.css('transform', 'scale('+(y-860)/(189-570)+','+(y-860)/(189-570)+')');
+	 		$mainimage.css('width','217%');
+	 		$mainimage.css('top', '0%');
+	 		$mainimage.css('filter','brightness('+5*y+')');
+	 	}
+	 	else if(y<189) {
+	 		$mainimage.css('width','217%');
+	 		$mainimage.css('top', '0%');
+	 	}
+	 	else {
+	 		$mainimage.css('top', + y/500 + '%');
+	 		$mainimage.css('filter','brightness(5)');
+	 		// $mainimage.css('transform', 'scale('+(y-189)/(860-189)+','+(y-189)/(860-189)+')');
+	 	}
+	 	// if(y<=192&&y>=194) {
+	 	// 	$mainimage.css('opacity','0');
+	 	// }
+	 	if (y>533) {
+	 		$maingraphic.css({opacity: ((1)/(y/10)*100)-.9});
+	 	}
+	 	if (y>487) {
+	 		$colorgraphictwo.css({opacity: ((1)/(y/10)*100)-.9});
+	 	}
+	 	if(y>=390) {
+	 		$mainimage.css('transform', 'translateX('+ (-y/2) + 'px)'); 
+	 		$mainimage.css('top', '5%');
+	 		// $mainimage.css('transform', 'scale(.3487332,.3487332)');
+	 	}
+	 	if(y>243 && y<500)  {
 	 		$colorgraphicthree.css('top', (y/2)-160+ '%'); 	
 	 		$colorgraphicfour.css('top', (-y/2)+70+ '%'); 	
 	 	}
@@ -144,9 +160,16 @@
 	 		
 	 	}
 	 	if(y>400 && y<860) 	{
-		 	$pagetwo.css({opacity: (y-400)/(860-400)*2});
+		 	// $pagetwo.css({opacity: 1/(y/400)});
+	 	}
+	 	if(y>1300) 	{
+		 	$colorgraphictwo.css('height', '0'); 
+	 		$colorgraphicthree.css('height', '0'); 	
+	 		$colorgraphicfour.css('height', '0'); 	
+	 		$colorgraphic.css('height', '0'); 
 	 	}
 	 	$background.css('transform', 'scaleX('+ (y/100) + 'px)'); 
+	 	$maingraphic.css('background-position', '0px ' + reverseOffset + 'px' );
 	 	$background.css('background-position', '0px ' + reverseOffset + 'px' );
 	 });
   });	  

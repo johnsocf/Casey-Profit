@@ -1,13 +1,10 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE>>
+<html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> -->
 	<title>Scroll Site</title>
-<link rel="stylesheet" type="text/css"  href="load/global.css"></link>
 <link href="style.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" type="text/css" href="help/css/reset.css" />
-<link rel="stylesheet" type="text/css" href="help/css/style.css" />
 </head>
 <body>
 <header>
@@ -18,8 +15,13 @@
 <div id="page">
 	<div id="main">
 		<section id="pageone">
-			<div id="background"></div>
-			<div id="mainimage"></div>
+			<!-- <div id="background"></div> -->
+			<div id="mainimage">
+				<video autoplay="true" loop preload>
+			 		<source src="Mountains.mp4" type="video/mp4">
+			 	 	<source src="Mountains.webm" type="video/webm">
+			 	</video>
+			</div>
 			<div id="maingraphic"></div>
 			<div id="colorgraphic"></div>
 			<div id="colorgraphictwo"></div>
@@ -28,6 +30,7 @@
 			<div id="midbase"></div>
 	    </section>
 	    <section id="pagetwo">
+	    	<div id="message"></div>
 			<!-- <div id="background"></div>
 			<div id="maingraphic"></div>
 			<div id="colorgraphic"></div>
@@ -35,9 +38,9 @@
 	    </section>
 	</div>
 </div>
-<footer>
+<!-- <footer>
 	<div id="footer7"></div>
-</footer>
+</footer> -->
    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
    <script src="js/jquery-ui-1.10.1.custom.js"></script>
    <script type="text/javascript" src="js/customparallax.js"></script>
